@@ -6,5 +6,20 @@ The game is an Online Battle Arena. A single player will control a group of few 
 ## Updates
 ## Diagrams
 ## Data Structures
+* Node:
+* List:
+* Matrix:
 ## Algorithms
+* A Search:
 ## Bugs
+## About
+Instituto Tecnológico de Costa Rica
+Área Académica Ingeniería en Computadores
+CE-2103: Algoritmos y Estructuras de Datos II
+Proyecto #2 - League of Gems
+### Miembros:
+* Víctor Castrillo Muñoz (2017110244)
+* Gabriel Abarca Aguilar (2017110442)
+* María Ávila ()
+* Joseph González Pastora ()
+* Fabricio Elizondo ()
