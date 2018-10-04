@@ -11,10 +11,9 @@ public class Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Move(new Vector3(4f, 0f, 0f) );
+		
 	}
-    
-	public void Move(Vector3 new_position){
-		transform.Translate(new_position* Time.deltaTime);	
+	public void jump(){
+		
 	}
 }
