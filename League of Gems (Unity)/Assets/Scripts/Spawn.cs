@@ -22,12 +22,14 @@ public class Spawn : MonoBehaviour {
     }
 	public void Move(Vector3 new_position)
     {
-		transform.Translate((new_position - transform.position)*Time.deltaTime);
-		foreach (GameObject min in minionList){
-			//if (min.transform.position.y == 0f){
-				min.GetComponent<Rigidbody>().AddForce(Vector3.up * 0.5f, ForceMode.Impulse);
-			//}
+		//Jump
+		/*foreach (GameObject min in minionList)
+        {
+            min.GetComponent<Rigidbody>().AddForce(Vector3.up * 0.5f, ForceMode.Impulse);
 
-		}
+        }*/
+		//Tranlate position
+		transform.Translate((new_position - transform.position)*Time.deltaTime);
+
     }
 }

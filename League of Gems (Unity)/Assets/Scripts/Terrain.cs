@@ -17,27 +17,34 @@ public class Terrain : MonoBehaviour {
 	void Update () {
 		  
 	}
-    // Update para físicas
+    // Update
 	void FixedUpdate(){
 		if (Input.GetMouseButtonDown(1)){
             Vector3 mouse_pos = mousePos();
 			Vector3 player_pos = playerPos();
-			AddtoList(mouse_pos,player_pos);
+			AddToList(mouse_pos, player_pos);
         }
 		if (positions.Count > 0){
 			setPlayerPos(positions[0]);
 			positions.RemoveAt(0);
 		}
 	}
-    //Adjunta los valores a la Lista de Vectores del PathFinding
-	void AddtoList(Vector3 init, Vector3 finit){
-		//Editar con Path Finding
+    /// <summary>
+    /// Sends the mouse and the player's position to c++ code and recieves the pathfinding list.
+    /// </summary>
+    /// <param name="init">Init.</param>
+    /// <param name="finit">Finit.</param>
+	void AddToList(Vector3 init, Vector3 finit){
+        //Lista para probar
 		for (int i = 0; i < 10; i++)
         {
             positions.Add(new Vector3(10f * i, 0f, 10f * i));
         }
 	}
-    //Consigue la posición del Mouse
+    /// <summary>
+    /// Gets the position of the mouse throwing a ray that collides with the ground.
+    /// </summary>
+    /// <returns>The position.</returns>
 	Vector3 mousePos(){
 		RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -48,11 +55,17 @@ public class Terrain : MonoBehaviour {
         }
 		return new Vector3(0f,0f,0f);
 	}
-    //Consigue la posición del jugador
+    /// <summary>
+    /// Gets the player position from his attributtes.
+    /// </summary>
+    /// <returns>The position.</returns>
 	Vector3 playerPos(){
 		return player.transform.position;
 	}
-    //Posiciona al jugador en la posición de la lista
+    /// <summary>
+    /// Sets the player position to the first on the list
+    /// </summary>
+    /// <param name="newPos">New position.</param>
 	void setPlayerPos(Vector3 newPos){
 		player.GetComponent<Spawn>().Move(newPos);
         
