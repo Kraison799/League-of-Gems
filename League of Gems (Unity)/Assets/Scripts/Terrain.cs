@@ -7,7 +7,7 @@ public class Terrain : MonoBehaviour {
 	List<Vector3> positions = new List<Vector3>();
 
 	GameObject player;
-
+	public GameObject click;
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag("minions");
@@ -23,6 +23,8 @@ public class Terrain : MonoBehaviour {
             Vector3 mouse_pos = mousePos();
 			Vector3 player_pos = playerPos();
 			AddToList(mouse_pos, player_pos);
+			GameObject particle = Instantiate(click, mouse_pos, transform.rotation);
+			Destroy(particle, 3f);
         }
 		if (positions.Count > 0){
 			setPlayerPos(positions[0]);
@@ -36,9 +38,9 @@ public class Terrain : MonoBehaviour {
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
         //Lista para probar
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < 100; i++)
         {
-            positions.Add(new Vector3(10f * i, 0f, 10f * i));
+            positions.Add(new Vector3(i, 0f, i));
         }
 	}
     /// <summary>
