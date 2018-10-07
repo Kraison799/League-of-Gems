@@ -38,7 +38,7 @@ public class Terrain : MonoBehaviour {
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
         //Lista para probar
-		for (int i = 0; i < 100; i++)
+		for (int i = 0; i < 700; i++)
         {
             positions.Add(new Vector3(i, 0f, i));
         }
@@ -62,7 +62,7 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <returns>The position.</returns>
 	Vector3 playerPos(){
-		return player.transform.position;
+		return player.GetComponent<Rigidbody>().position;
 	}
     /// <summary>
     /// Sets the player position to the first on the list
