@@ -9,7 +9,7 @@
 
 class Matrix {
 public:
-    Matrix();
+    Matrix(int rowSize, int columnSize);
     List<int[2]> aSearch(int[2] targetPos);
     List<int[2]> dijsktra(int[2] targetPos)
     List<int[2]> kruskal(int[2] targetPos);
@@ -17,6 +17,8 @@ public:
     void setState(int i, int j, int state);
 private:
     int[][] matrix;
+    int rows;
+    int columns;
 };
 
 #endif //LEAGUEOFGEMS_MATRIX_H

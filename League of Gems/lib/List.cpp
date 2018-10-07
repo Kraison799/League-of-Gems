@@ -10,6 +10,7 @@ List<T>::List() {
     this->head = NULL;
 }
 
+// Add a new T element into the list
 template <typename T>
 void List<T>::add(T nValue) {
     Node nNode;
@@ -30,6 +31,7 @@ void List<T>::add(T nValue) {
     }
 }
 
+// Return a value saved into the list in the position given
 template <typename T>
 T List<T>::get(int index) {
     if (this->size > 0) {
@@ -45,6 +47,7 @@ T List<T>::get(int index) {
     }
 }
 
+// Remove an element from the list in the position given
 template <typename T>
 void List<T>::remove(int index) {
     if (index < this->size) {
@@ -63,6 +66,7 @@ void List<T>::remove(int index) {
     }
 }
 
+// Search for an element into the list and remove it
 template <typename T>
 void List<T>::remove(T rValue) {
     if (this->head.value == rValue) {
@@ -79,6 +83,7 @@ void List<T>::remove(T rValue) {
     }
 }
 
+// Clear the list
 template <typename T>
 void List<T>::clear() {
     this->head = NULL;
