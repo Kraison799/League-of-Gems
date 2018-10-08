@@ -1,17 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.InteropServices;
+using System;
 
 public class Spawn : MonoBehaviour {
+	//C++ Libraries
+	/*[DllImport("liblib.so")]
+	static extern void createMinions(int min);
+	[DllImport("liblib.so")]
+	static extern IntPtr getMinion(int pos);*/
+    //Methods
+	public float speed = 10f;
 	public GameObject minions;
-	public List<GameObject> minionList = new List<GameObject>(); 
+	//public List<GameObject> minionList = new List<GameObject>(); 
 	// Use this for initialization
 	void Start () {
-		for (int i = 0; i < 15; i++){
-			GameObject minion = Instantiate(minions, transform.position, transform.rotation,transform);
-			minion.transform.Translate(new Vector3(i%5,0.25f,i%3)*3f);
-			minionList.Add(minion);
-		}
+		//createMinions(64);
+		for (int i = 0; i < 64; i++){
+			Vector3 position = setPosition(i);
+			GameObject minion = Instantiate(minions, position, transform.rotation,transform);
+			//minion.GetComponent<Movement>().setMinionC(getMinion(i));
+			//minionList.Add(minion);
+		}  
 	}
 	
 	// Update is called once per frame
@@ -20,16 +31,48 @@ public class Spawn : MonoBehaviour {
 			transform.Translate(Vector3.forward);
 		}*/
     }
+    /// <summary>
+    /// Move the specified new_position.
+    /// </summary>
+    /// <param name="new_position">New position.</param>
 	public void Move(Vector3 new_position)
     {
 		//Jump
 		/*foreach (GameObject min in minionList)
         {
-            min.GetComponent<Rigidbody>().AddForce(Vector3.up * 0.5f, ForceMode.Impulse);
+            min.GetComponent<Rigidbody>().AddForce(Vector3.up * 0.1f, ForceMode.Impulse);
 
         }*/
 		//Tranlate position
-		transform.Translate((new_position - transform.position)*Time.deltaTime);
+		GetComponent<Rigidbody>().MovePosition(new_position*speed);
 
     }
+	Vector3 setPosition(int i){
+		float z = 0;
+		if (i < 8){
+			z = 0f;
+		}else if (i < 16)
+        {
+            z = 1f;
+		}else if (i < 24)
+        {
+            z = 2f;
+		}else if (i < 32)
+        {
+            z = 3f;
+		}else if (i < 40)
+        {
+            z = 4f;
+		}else if (i < 48)
+        {
+            z = 5f;
+		}else if (i < 56)
+        {
+            z = 6f;
+		}else if (i < 64)
+        {
+            z = 7f;
+        }
+		return new Vector3(i%8,0.25f,z) * 3;
+	}
 }
