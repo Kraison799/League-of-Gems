@@ -18,10 +18,11 @@ public class Spawn : MonoBehaviour {
 	void Start () {
 		//createMinions(64);
 		for (int i = 0; i < 64; i++){
-			GameObject minion = Instantiate(minions, new Vector3(i, 0.25f, i) * 3f, transform.rotation,transform);
+			Vector3 position = setPosition(i);
+			GameObject minion = Instantiate(minions, position, transform.rotation,transform);
 			//minion.GetComponent<Movement>().setMinionC(getMinion(i));
 			//minionList.Add(minion);
-		}
+		}  
 	}
 	
 	// Update is called once per frame
@@ -46,4 +47,32 @@ public class Spawn : MonoBehaviour {
 		GetComponent<Rigidbody>().MovePosition(new_position*speed);
 
     }
+	Vector3 setPosition(int i){
+		float z = 0;
+		if (i < 8){
+			z = 0f;
+		}else if (i < 16)
+        {
+            z = 1f;
+		}else if (i < 24)
+        {
+            z = 2f;
+		}else if (i < 32)
+        {
+            z = 3f;
+		}else if (i < 40)
+        {
+            z = 4f;
+		}else if (i < 48)
+        {
+            z = 5f;
+		}else if (i < 56)
+        {
+            z = 6f;
+		}else if (i < 64)
+        {
+            z = 7f;
+        }
+		return new Vector3(i%8,0.25f,z) * 3;
+	}
 }
