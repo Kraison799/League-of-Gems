@@ -62,7 +62,7 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <returns>The position.</returns>
 	Vector3 playerPos(){
-		return player.transform.position;
+		return player.GetComponent<Rigidbody>().position;
 	}
     /// <summary>
     /// Sets the player position to the first on the list
