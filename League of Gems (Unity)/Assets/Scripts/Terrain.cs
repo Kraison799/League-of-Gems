@@ -38,7 +38,7 @@ public class Terrain : MonoBehaviour {
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
         //Lista para probar
-		for (int i = 0; i < 700; i++)
+		for (int i = 0; i < 100; i++)
         {
             positions.Add(new Vector3(i, 0f, i));
         }
