@@ -7,10 +7,12 @@ public class Terrain : MonoBehaviour {
 	List<Vector3> positions = new List<Vector3>();
 
 	GameObject player;
+	GameObject cpu;
 	public GameObject click;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindGameObjectWithTag("minions");
+		player = GameObject.FindGameObjectWithTag("Player");
+		cpu = GameObject.FindGameObjectWithTag("cpu");
 	}
 	
 	// Update is called once per frame
@@ -22,7 +24,7 @@ public class Terrain : MonoBehaviour {
 		if (Input.GetMouseButtonDown(1)){
             Vector3 mouse_pos = mousePos();
 			Vector3 player_pos = playerPos();
-			AddToList(mouse_pos, player_pos);
+			AddToList(player_pos, mouse_pos);
 			GameObject particle = Instantiate(click, mouse_pos, transform.rotation);
 			Destroy(particle, 3f);
         }
@@ -37,11 +39,13 @@ public class Terrain : MonoBehaviour {
     /// <param name="init">Init.</param>
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
-        //Lista para probar
-		for (int i = 0; i < 100; i++)
+		//Lista para probar
+		/*for (int i = 0; i < 100; i++)
         {
             positions.Add(new Vector3(i, 0f, i));
-        }
+        }*/
+		Debug.Log(finit);
+		positions.Add(finit);
 	}
     /// <summary>
     /// Gets the position of the mouse throwing a ray that collides with the ground.
@@ -51,7 +55,7 @@ public class Terrain : MonoBehaviour {
 		RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out hit) && hit.transform.tag == "Ground")
+		if (Physics.Raycast(ray, out hit) && hit.transform.tag.Equals("Ground"))
         {
             return hit.point;
         }
@@ -62,14 +66,14 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <returns>The position.</returns>
 	Vector3 playerPos(){
-		return player.GetComponent<Rigidbody>().position;
+		return player.GetComponent<Player>().Selectedhorde.GetComponent<Rigidbody>().position;
 	}
     /// <summary>
     /// Sets the player position to the first on the list
     /// </summary>
     /// <param name="newPos">New position.</param>
 	void setPlayerPos(Vector3 newPos){
-		player.GetComponent<Spawn>().Move(newPos);
+		player.GetComponent<Player>().Selectedhorde.GetComponent<Horde>().Move(newPos);
         
 	}
 }

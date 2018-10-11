@@ -6,6 +6,7 @@ TagManager:
   tags:
   - minions
   - Ground
+  - cpu
   layers:
   - Default
   - TransparentFX

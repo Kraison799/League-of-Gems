@@ -19,8 +19,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4913921320894832}
-  - component: {fileID: 114444158747153892}
   - component: {fileID: 54958873587492956}
+  - component: {fileID: 114820932531434592}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: minions
@@ -56,7 +56,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114444158747153892
+--- !u!114 &114820932531434592
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,8 +64,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1847827005745006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 492ba21331f5944468da252f4c3c95a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 193d0b71c49c047729b3836bf26fe9bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  minionsCap: 0
+  speed: 10
   minions: {fileID: 1112066272977136, guid: 1f8aa2766c30745b387e3df42d95af76, type: 2}
