@@ -45,7 +45,7 @@ public class Terrain : MonoBehaviour {
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
 		SendPositions(init.x/4, init.z/4, finit.x/4, finit.z/4);
-		SendListAdder(iWasCalled);    
+		SendListAdder(iWasCalled);
 	}
     /// <summary>
     /// Gets the position of the mouse throwing a ray that collides with the ground.
