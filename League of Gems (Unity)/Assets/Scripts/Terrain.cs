@@ -1,9 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class Terrain : MonoBehaviour {
-
+	/*[DllImport("liblib.so")]
+	static extern void SendListAdder(Action<int,int> action);
+	[DllImport("liblib.so")]
+    static extern void SendPositions(float xi,float yi,float xf, float yf);*/
 	List<Vector3> positions = new List<Vector3>();
 
 	GameObject player;
@@ -39,13 +44,8 @@ public class Terrain : MonoBehaviour {
     /// <param name="init">Init.</param>
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
-		//Lista para probar
-		/*for (int i = 0; i < 100; i++)
-        {
-            positions.Add(new Vector3(i, 0f, i));
-        }*/
-		Debug.Log(finit);
-		positions.Add(finit);
+		SendPositions(init.x/4, init.z/4, finit.x/4, finit.z/4);
+		SendListAdder(iWasCalled);    
 	}
     /// <summary>
     /// Gets the position of the mouse throwing a ray that collides with the ground.
@@ -75,5 +75,8 @@ public class Terrain : MonoBehaviour {
 	void setPlayerPos(Vector3 newPos){
 		player.GetComponent<Player>().Selectedhorde.GetComponent<Horde>().Move(newPos);
         
+	}
+	void iWasCalled(int x, int y){
+		positions.Add(new Vector3(x*4,0.25f,y*4));
 	}
 }
