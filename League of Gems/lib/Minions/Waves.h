@@ -2,7 +2,7 @@
 // Created by ferathor on 07/10/18.
 //
 
-#include "List.h"
+#include "../ADT/List.h"
 
 #ifndef LEAGUEOFGEMS_WAVES_H
 #define LEAGUEOFGEMS_WAVES_H

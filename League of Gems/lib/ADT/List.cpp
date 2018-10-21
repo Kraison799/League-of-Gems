@@ -3,7 +3,7 @@
 //
 
 #include "List.h"
-
+/*
 template <typename T>
 List<T>::List() {
     this->size = 0;
@@ -88,4 +88,4 @@ template <typename T>
 void List<T>::clear() {
     this->head = NULL;
     this->size = 0;
-}
+}*/

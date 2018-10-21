@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lib.dir/library.cpp.o"
+  "CMakeFiles/lib.dir/ADT/List.cpp.o"
+  "CMakeFiles/lib.dir/Maps/Djikstra.cpp.o"
+  "CMakeFiles/lib.dir/Maps/Map.cpp.o"
   "liblib.pdb"
   "liblib.so"
 )
