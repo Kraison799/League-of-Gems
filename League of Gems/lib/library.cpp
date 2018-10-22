@@ -19,13 +19,15 @@ int Add(int a, int b) {
 void SendListAdder(void(*action)(int,int)){
     for(int i = 0; i<PosList.size;i++){
         //Conversion de nodo a x y
-        int x;
-        int y;
+        int x = PosList.get(i)%250;
+        int y = PosList.get(i)/250;
         action(x,y);
     }
 
 }
-void SendPositions(float xi,float yi,float xf, float yf){
+void SendPositions(int xi,int yi,int xf, int yf){
     //Conversion de x y a nodo
-    PosList = a.dijkstra(25,20);
+    int init = xi*(1+yi) +xi;
+    int finit = xf*(1+yf) +xf;
+    PosList = a.dijkstra(init,finit);
 }

@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/ADT/List.cpp
+List.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/ADT/List.h
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/ADT/List.h
+cstdio
+-
+string.h
+-
+iostream
+-
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Djikstra.cpp
+Djikstra.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Djikstra.h
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Djikstra.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+iostream
+-
+../ADT/List.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/ADT/List.h
+Map.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Map.h
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Map.h
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/library.cpp
+library.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/library.h
+Maps/Map.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Map.h
+Maps/Djikstra.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Djikstra.h
+iostream
+-
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/library.h
+

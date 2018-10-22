@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Terrain.cs">
     <Files>
       <File FileName="Assets/Scripts/Movement.cs" Line="26" Column="2" />
-      <File FileName="Assets/Scripts/Spawn.cs" Line="42" Column="15" />
-      <File FileName="Assets/Scripts/Terrain.cs" Line="72" Column="35" />
+      <File FileName="Assets/Scripts/Spawn.cs" Line="42" Column="10" />
+      <File FileName="Assets/Scripts/Terrain.cs" Line="14" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

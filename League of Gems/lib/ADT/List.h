@@ -214,7 +214,7 @@ public:
             }
         }
     }
-    void del(T _data)
+    /*void del(T _data)
     {
         if(!isEmpty())
         {
@@ -261,7 +261,7 @@ public:
                 }
             }
         }
-    }
+    }*/
     void delAll()
     {
         int n = size;

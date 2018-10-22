@@ -10,7 +10,7 @@ extern "C"{
     LIB_LIBRARY_H int Add(int a, int b);
     //Funciones de Mapa
     LIB_LIBRARY_H void SendListAdder(void(*action)(int x,int y));
-    LIB_LIBRARY_H void SendPositions(float xi,float yi,float xf, float yf);
+    LIB_LIBRARY_H void SendPositions(int xi,int yi,int xf, int yf);
 }
 void hello();
 
