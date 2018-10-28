@@ -14,6 +14,7 @@ As a player, I want the minions to move to the position where I click to find th
 As a player, I want skills that give the chance to support my minions while the fight to 
 ## Updates
 ## Diagrams
+![league of gems-class diagram](https://user-images.githubusercontent.com/29305622/47621989-3062e480-dac5-11e8-9b07-466cf0201f69.png)
 ## Data Structures
 * Node:
 Data structure that saves an element into a greater data structure which will reference a starting node and the nodes will reference the next node.
