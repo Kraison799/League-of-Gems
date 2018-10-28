@@ -78,6 +78,7 @@ public:
     int Search(List<int> a, int ele);
     List<int> asap(List<int>  v, int src, int fin);
     List<int>  dijkstra(int src, int fin);
+    void getPositions(int xi, int yi, int xf, int yf) override;
 
 };
 #endif //LIB_DJIKSTRA_H

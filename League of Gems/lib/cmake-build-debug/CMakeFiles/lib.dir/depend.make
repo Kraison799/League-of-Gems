@@ -30,3 +30,8 @@ CMakeFiles/lib.dir/library.cpp.o: ../Maps/Map.h
 CMakeFiles/lib.dir/library.cpp.o: ../library.cpp
 CMakeFiles/lib.dir/library.cpp.o: ../library.h
 
+CMakeFiles/lib.dir/main.cpp.o: ../ADT/List.h
+CMakeFiles/lib.dir/main.cpp.o: ../Maps/Map.h
+CMakeFiles/lib.dir/main.cpp.o: ../library.h
+CMakeFiles/lib.dir/main.cpp.o: ../main.cpp
+

@@ -19,7 +19,7 @@ LIB_LIBRARY_H Map* getMap(int level){
 
     if (level == 1){
         Debug::Log("using SightLine",Color::Blue);
-        std::cout<< "printing Sight Line" <<endl;
+        std::cout<< "printing SightLine" <<endl;
         return new AStar;
     }
     else if(level == 2){

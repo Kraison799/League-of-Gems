@@ -93,3 +93,7 @@ List<int> Djikstra::dijkstra(int src, int fin)
     printSolution(dist, V);
     return asap(a,src,fin);
 };
+//Funcion para busqueda
+void Djikstra::getPositions(int xi, int yi,int xf,int yf){
+    //Aquí obtiene los parametros inciales y finales para la busqueda
+}

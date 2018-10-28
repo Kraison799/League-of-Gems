@@ -13,7 +13,7 @@ int Map::sendpositionxory() {
 }
 
 void Map::getPositions(int xi, int yi, int xf, int yf) {
-
+    //Se sobreescribe de acuerdo al algoritmo
 }
 int Map::sendListLenght(){
     Debug::Log("List Lenght: ");
