@@ -4,30 +4,45 @@
 
 #include "library.h"
 #include "Maps/Map.h"
-#include "Maps/Djikstra.h"
+#include "Maps/AStar.h"
 
 #include <iostream>
 
-Djikstra a;
-List<int> PosList;
 
+//Funcion de Prueba
 int Add(int a, int b) {
     return a + b;
 }
+//Funciones de Mapa
+LIB_LIBRARY_H Map* getMap(int level){
 
-
-void SendListAdder(void(*action)(int,int)){
-    for(int i = 0; i<PosList.size;i++){
-        //Conversion de nodo a x y
-        int x = PosList.get(i)%250;
-        int y = PosList.get(i)/250;
-        action(x,y);
+    if (level == 1){
+        std::cout<< "printing Sight Line" <<endl;
+        return new AStar;
     }
-
+    else if(level == 2){
+        std::cout<< "printing Djikstra" <<endl;
+        return new AStar;
+    }
+    else if(level == 3){
+        std::cout<< "printing Kruskal" <<endl;
+        return new AStar;
+    }
+    else if(level == 4){
+        std::cout<< "printing Prim" <<endl;
+        return new AStar;
+    }
+    else {
+        std::cout<< "printing AStar" <<endl;
+        return new AStar;
+    }
 }
-void SendPositions(int xi,int yi,int xf, int yf){
-    //Conversion de x y a nodo
-    int init = xi*(1+yi) +xi;
-    int finit = xf*(1+yf) +xf;
-    PosList = a.dijkstra(init,finit);
+LIB_LIBRARY_H void SendPositions(Map* map, int xi, int yi, int xf, int yf){
+    map->getPositions(xi,yi,xf,yf);
+}
+LIB_LIBRARY_H int GetListLenght(Map map){
+    return map.sendListLenght();
+}
+LIB_LIBRARY_H int GetListPosition(Map map){
+    return map.sendpositionxory();
 }

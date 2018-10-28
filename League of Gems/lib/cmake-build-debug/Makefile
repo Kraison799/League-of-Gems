@@ -150,6 +150,33 @@ ADT/List.cpp.s:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/List.cpp.s
 .PHONY : ADT/List.cpp.s
 
+Maps/AStar.o: Maps/AStar.cpp.o
+
+.PHONY : Maps/AStar.o
+
+# target to build an object file
+Maps/AStar.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/AStar.cpp.o
+.PHONY : Maps/AStar.cpp.o
+
+Maps/AStar.i: Maps/AStar.cpp.i
+
+.PHONY : Maps/AStar.i
+
+# target to preprocess a source file
+Maps/AStar.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/AStar.cpp.i
+.PHONY : Maps/AStar.cpp.i
+
+Maps/AStar.s: Maps/AStar.cpp.s
+
+.PHONY : Maps/AStar.s
+
+# target to generate assembly for a file
+Maps/AStar.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/AStar.cpp.s
+.PHONY : Maps/AStar.cpp.s
+
 Maps/Djikstra.o: Maps/Djikstra.cpp.o
 
 .PHONY : Maps/Djikstra.o
@@ -231,6 +258,33 @@ library.cpp.s:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/library.cpp.s
 .PHONY : library.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,6 +297,9 @@ help:
 	@echo "... ADT/List.o"
 	@echo "... ADT/List.i"
 	@echo "... ADT/List.s"
+	@echo "... Maps/AStar.o"
+	@echo "... Maps/AStar.i"
+	@echo "... Maps/AStar.s"
 	@echo "... Maps/Djikstra.o"
 	@echo "... Maps/Djikstra.i"
 	@echo "... Maps/Djikstra.s"
@@ -252,6 +309,9 @@ help:
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

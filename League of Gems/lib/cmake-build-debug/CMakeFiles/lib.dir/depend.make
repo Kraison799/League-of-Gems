@@ -4,17 +4,28 @@
 CMakeFiles/lib.dir/ADT/List.cpp.o: ../ADT/List.cpp
 CMakeFiles/lib.dir/ADT/List.cpp.o: ../ADT/List.h
 
+CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../ADT/List.h
+CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/AStar.cpp
+CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/AStar.h
+CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/Map.h
+
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../ADT/List.h
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../Maps/Djikstra.cpp
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../Maps/Djikstra.h
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../Maps/Map.h
 
+CMakeFiles/lib.dir/Maps/Map.cpp.o: ../ADT/List.h
 CMakeFiles/lib.dir/Maps/Map.cpp.o: ../Maps/Map.cpp
 CMakeFiles/lib.dir/Maps/Map.cpp.o: ../Maps/Map.h
 
 CMakeFiles/lib.dir/library.cpp.o: ../ADT/List.h
-CMakeFiles/lib.dir/library.cpp.o: ../Maps/Djikstra.h
+CMakeFiles/lib.dir/library.cpp.o: ../Maps/AStar.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/Map.h
 CMakeFiles/lib.dir/library.cpp.o: ../library.cpp
 CMakeFiles/lib.dir/library.cpp.o: ../library.h
+
+CMakeFiles/lib.dir/main.cpp.o: ../ADT/List.h
+CMakeFiles/lib.dir/main.cpp.o: ../Maps/Map.h
+CMakeFiles/lib.dir/main.cpp.o: ../library.h
+CMakeFiles/lib.dir/main.cpp.o: ../main.cpp
 

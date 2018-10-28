@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,liblib.so -o liblib.so CMakeFiles/lib.dir/library.cpp.o CMakeFiles/lib.dir/ADT/List.cpp.o CMakeFiles/lib.dir/Maps/Djikstra.cpp.o CMakeFiles/lib.dir/Maps/Map.cpp.o 
+/usr/bin/c++  -g   CMakeFiles/lib.dir/main.cpp.o CMakeFiles/lib.dir/library.cpp.o CMakeFiles/lib.dir/ADT/List.cpp.o CMakeFiles/lib.dir/Maps/Djikstra.cpp.o CMakeFiles/lib.dir/Maps/Map.cpp.o CMakeFiles/lib.dir/Maps/AStar.cpp.o  -o lib 
