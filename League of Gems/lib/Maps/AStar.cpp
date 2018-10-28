@@ -68,6 +68,8 @@ void AStar::tracePath(cell cellDetails[][COL], Pair dest)
         pair<int, int> p = Path.top();
         Path.pop();
         printf("-> (%d,%d) ", p.first, p.second);
+        positions.add(p.first);
+        positions.add(p.second);
     }
 
     return;

@@ -13,8 +13,8 @@ extern "C"{
     //Funciones de Mapa
     LIB_LIBRARY_H Map* getMap(int level);
     LIB_LIBRARY_H void SendPositions(Map* map, int xi, int yi, int xf, int yf);
-    LIB_LIBRARY_H int GetListLenght(Map map);
-    LIB_LIBRARY_H int GetListPosition(Map map);
+    LIB_LIBRARY_H int GetListLenght(Map* map);
+    LIB_LIBRARY_H int GetListPosition(Map* map);
 }
 void hello();
 

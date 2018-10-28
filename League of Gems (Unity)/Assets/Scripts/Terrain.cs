@@ -5,20 +5,24 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class Terrain : MonoBehaviour {
-
 	[DllImport("liblib.so")]
-    static extern void SendListAdder(Action<int, int> action);
+	static extern IntPtr getMap(int level);
+	[DllImport("liblib.so")]
+	static extern void SendPositions(IntPtr map,int xi, float yi, float xf, float yf);
     [DllImport("liblib.so")]
-    static extern void SendPositions(float xi, float yi, float xf, float yf);
-
+	static extern int GetListLenght(IntPtr map);
+	[DllImport("liblib.so")]
+	static extern int GetListPosition(IntPtr map);
 
 	List<Vector3> positions = new List<Vector3>();
-
+	private IntPtr map;
 	GameObject player;
 	public GameObject click;
 	// Use this for initialization
 	void Start () {
+		Debug.Log("Created");
 		player = GameObject.FindGameObjectWithTag("minions");
+		map = getMap(5);
 	}
 	
 	// Update is called once per frame
@@ -45,8 +49,11 @@ public class Terrain : MonoBehaviour {
     /// <param name="init">Init.</param>
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
-		SendPositions(init.x / 4, init.z / 4, finit.x / 4, finit.z / 4);
-        SendListAdder(iWasCalled);
+		SendPositions(map, (int) init.x / 4, (int) init.z / 4, (int) finit.x / 4, (int) finit.z / 4);
+		int lenght = GetListLenght(map);
+		for (int i = 0; i < lenght/2;i++){
+			Debug.Log(new Vector3(GetListLenght(map), 0.25f, GetListLenght(map)));
+		}
 	}
     /// <summary>
     /// Gets the position of the mouse throwing a ray that collides with the ground.
@@ -74,11 +81,6 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <param name="newPos">New position.</param>
 	void setPlayerPos(Vector3 newPos){
-		player.GetComponent<Spawn>().Move(newPos);
-        
+		player.GetComponent<Spawn>().Move(newPos);   
 	}
-	void iWasCalled(int x, int y)
-    {
-        positions.Add(new Vector3(x * 4, 0.25f, y * 4));
-    }
 }

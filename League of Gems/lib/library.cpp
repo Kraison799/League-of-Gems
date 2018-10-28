@@ -40,9 +40,10 @@ LIB_LIBRARY_H Map* getMap(int level){
 LIB_LIBRARY_H void SendPositions(Map* map, int xi, int yi, int xf, int yf){
     map->getPositions(xi,yi,xf,yf);
 }
-LIB_LIBRARY_H int GetListLenght(Map map){
-    return map.sendListLenght();
+LIB_LIBRARY_H int GetListLenght(Map* map){
+    std::cout<< "sending list lenght..." <<endl;
+    return map->sendListLenght();
 }
-LIB_LIBRARY_H int GetListPosition(Map map){
-    return map.sendpositionxory();
+LIB_LIBRARY_H int GetListPosition(Map* map){
+    return map->sendpositionxory();
 }
