@@ -90,6 +90,12 @@
 		<Unit filename="/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/ADT/List.h">
 			<Option target="lib"/>
 		</Unit>
+		<Unit filename="/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Debug.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Debug.h">
+			<Option target="lib"/>
+		</Unit>
 		<Unit filename="/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/AStar.cpp">
 			<Option target="lib"/>
 		</Unit>

@@ -150,6 +150,33 @@ ADT/List.cpp.s:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/List.cpp.s
 .PHONY : ADT/List.cpp.s
 
+Debug.o: Debug.cpp.o
+
+.PHONY : Debug.o
+
+# target to build an object file
+Debug.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Debug.cpp.o
+.PHONY : Debug.cpp.o
+
+Debug.i: Debug.cpp.i
+
+.PHONY : Debug.i
+
+# target to preprocess a source file
+Debug.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Debug.cpp.i
+.PHONY : Debug.cpp.i
+
+Debug.s: Debug.cpp.s
+
+.PHONY : Debug.s
+
+# target to generate assembly for a file
+Debug.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Debug.cpp.s
+.PHONY : Debug.cpp.s
+
 Maps/AStar.o: Maps/AStar.cpp.o
 
 .PHONY : Maps/AStar.o
@@ -270,6 +297,9 @@ help:
 	@echo "... ADT/List.o"
 	@echo "... ADT/List.i"
 	@echo "... ADT/List.s"
+	@echo "... Debug.o"
+	@echo "... Debug.i"
+	@echo "... Debug.s"
 	@echo "... Maps/AStar.o"
 	@echo "... Maps/AStar.i"
 	@echo "... Maps/AStar.s"

@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\Print.cs" />
      <Compile Include="Assets\Scripts\Spawn.cs" />
      <Compile Include="Assets\Scripts\Terrain.cs" />
  <Reference Include="UnityEditor.StandardEvents">
