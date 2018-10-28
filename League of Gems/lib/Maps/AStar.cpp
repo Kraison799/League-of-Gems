@@ -1,4 +1,5 @@
 #include "AStar.h"
+#include "../Debug.h"
 
 //
 // Created by gabriel on 27/10/18.
@@ -67,6 +68,7 @@ void AStar::tracePath(cell cellDetails[][COL], Pair dest)
     {
         pair<int, int> p = Path.top();
         Path.pop();
+        Debug::Log(p.first +","+p.second);
         printf("-> (%d,%d) ", p.first, p.second);
         positions.add(p.first);
         positions.add(p.second);

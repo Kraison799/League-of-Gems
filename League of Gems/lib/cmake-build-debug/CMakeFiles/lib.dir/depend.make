@@ -8,6 +8,7 @@ CMakeFiles/lib.dir/Debug.cpp.o: ../Debug.cpp
 CMakeFiles/lib.dir/Debug.cpp.o: ../Debug.h
 
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../ADT/List.h
+CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Debug.h
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/AStar.cpp
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/AStar.h
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/Map.h

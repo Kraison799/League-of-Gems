@@ -4,7 +4,7 @@
       <File FileName="Assets/Scripts/Movement.cs" Line="36" Column="21" />
       <File FileName="Assets/Scripts/Spawn.cs" Line="21" Column="11" />
       <File FileName="Assets/Scripts/Terrain.cs" Line="24" Column="28" />
-      <File FileName="Assets/Scripts/Print.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/Print.cs" Line="11" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
