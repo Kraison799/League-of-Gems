@@ -5,6 +5,7 @@
 #include "library.h"
 #include "Maps/Map.h"
 #include "Maps/AStar.h"
+#include "Debug.h"
 
 #include <iostream>
 
@@ -17,22 +18,27 @@ int Add(int a, int b) {
 LIB_LIBRARY_H Map* getMap(int level){
 
     if (level == 1){
+        Debug::Log("using SightLine",Color::Blue);
         std::cout<< "printing Sight Line" <<endl;
         return new AStar;
     }
     else if(level == 2){
+        Debug::Log("using Djikstra",Color::Blue);
         std::cout<< "printing Djikstra" <<endl;
         return new AStar;
     }
     else if(level == 3){
+        Debug::Log("using Kruskal",Color::Blue);
         std::cout<< "printing Kruskal" <<endl;
         return new AStar;
     }
     else if(level == 4){
+        Debug::Log("using Prim",Color::Blue);
         std::cout<< "printing Prim" <<endl;
         return new AStar;
     }
     else {
+        Debug::Log("using AStar",Color::Blue);
         std::cout<< "printing AStar" <<endl;
         return new AStar;
     }

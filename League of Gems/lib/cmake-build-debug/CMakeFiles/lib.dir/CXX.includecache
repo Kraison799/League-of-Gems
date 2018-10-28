@@ -6,3 +6,53 @@
 
 #IncludeRegexTransform: 
 
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/ADT/List.h
+cstdio
+-
+string.h
+-
+iostream
+-
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Debug.cpp
+Debug.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Debug.h
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Debug.h
+string
+-
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/AStar.h
+set
+-
+stack
+-
+cstring
+-
+cfloat
+-
+tgmath.h
+-
+Map.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Map.h
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Map.h
+../ADT/List.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/ADT/List.h
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/library.cpp
+library.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/library.h
+Maps/Map.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Map.h
+Maps/AStar.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/AStar.h
+Debug.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Debug.h
+iostream
+-
+
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/library.h
+Maps/Map.h
+/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/Maps/Map.h
+

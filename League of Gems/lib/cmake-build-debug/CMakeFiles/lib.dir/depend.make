@@ -4,6 +4,9 @@
 CMakeFiles/lib.dir/ADT/List.cpp.o: ../ADT/List.cpp
 CMakeFiles/lib.dir/ADT/List.cpp.o: ../ADT/List.h
 
+CMakeFiles/lib.dir/Debug.cpp.o: ../Debug.cpp
+CMakeFiles/lib.dir/Debug.cpp.o: ../Debug.h
+
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../ADT/List.h
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/AStar.cpp
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/AStar.h
@@ -19,6 +22,7 @@ CMakeFiles/lib.dir/Maps/Map.cpp.o: ../Maps/Map.cpp
 CMakeFiles/lib.dir/Maps/Map.cpp.o: ../Maps/Map.h
 
 CMakeFiles/lib.dir/library.cpp.o: ../ADT/List.h
+CMakeFiles/lib.dir/library.cpp.o: ../Debug.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/AStar.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/Map.h
 CMakeFiles/lib.dir/library.cpp.o: ../library.cpp
