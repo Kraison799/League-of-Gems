@@ -23,7 +23,8 @@ The list is a linear collection of nodes.
 The matrix is a two dimensions data structure that save a list of lists.
 ## Algorithms
 ### Pathfinding:
-* A Search:
+* A* Search:
+The A* Search algorithm takes a starting node from the graph and generate a tree with the paths it can take until the algorithm finds the target node, then the tree gives the path that reach the target.
 * Prim:
 * Dijkstra:
 * Kruskal:
@@ -38,3 +39,4 @@ Proyecto #2 - League of Gems
 * Víctor Castrillo Muñoz (2017110244)
 * Gabriel Abarca Aguilar (2017110442)
 * María Ávila ()
+* Roger Mora González (2017115791)
