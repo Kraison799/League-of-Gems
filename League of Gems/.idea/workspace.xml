@@ -12,34 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be4fe29f-a9d0-4c34-a0a0-54e898c546e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/.vs/League of Gems (Unity)/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/.vs/League of Gems (Unity)/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Assets/Scripts/Print.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/Assets/Scripts/Print.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Library/metadata/d9/d93924ca1cf3a4709843a907284a80f9" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/Library/metadata/d9/d93924ca1cf3a4709843a907284a80f9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/ProcessJobs/e4d7cdea9e7b674007a994e68f178ef6.bakert" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/UnityTempFile-1a117475753454729b2781e55bf090b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/UnityTempFile-8efacb7bedaf74415bb6a1b44a4b5471" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/UnityTempFile-ce8b4357b39224fe596470cc927b4bee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/UnityTempFile-da3ed67862f1f4890bd3c1e6832811df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/UnityTempFile-e8814fd1c149c40118c0896c2c4666d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/Temp/__Backupscenes/0.backup" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/liblib.so" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/liblib.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../League of Gems (Unity)/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../League of Gems (Unity)/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Debug.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Debug.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Maps/AStar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Maps/AStar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Maps/Map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Maps/Map.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/Debug.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/Debug.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/Maps/AStar.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/Maps/AStar.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/Maps/Map.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/Maps/Map.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/library.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/CMakeFiles/lib.dir/library.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cmake-build-debug/liblib.so" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cmake-build-debug/liblib.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/library.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/library.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lib/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,33 +37,34 @@
     <session id="-1141179871">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="24" />
-          <entry key="h" value="30" />
+          <entry key="cpp" value="26" />
+          <entry key="h" value="31" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="4" />
-          <entry key="ObjectiveC" value="54" />
+          <entry key="ObjectiveC" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1495" />
+          <entry key="cpp" value="1625" />
           <entry key="h" value="954" />
           <entry key="txt" value="78" />
         </counts>
@@ -87,7 +72,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="78" />
-          <entry key="ObjectiveC" value="2449" />
+          <entry key="ObjectiveC" value="2579" />
         </counts>
       </usages-collector>
     </session>
@@ -95,21 +80,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/library.h">
+        <entry file="file://$PROJECT_DIR$/lib/Maps/Map.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/library.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding>
-                <element signature="e#42#62#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/Maps/AStar.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="257">
+              <caret line="613" column="33" lean-forward="true" selection-start-line="613" selection-start-column="33" selection-end-line="613" selection-end-column="33" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -139,7 +115,6 @@
         <option value="$PROJECT_DIR$/lib/Maps/Djikstra.cpp" />
         <option value="$PROJECT_DIR$/lib/Maps/Djikstra.h" />
         <option value="$PROJECT_DIR$/lib/ADT/List.h" />
-        <option value="$PROJECT_DIR$/lib/Maps/Map.cpp" />
         <option value="$PROJECT_DIR$/lib/main.h" />
         <option value="$PROJECT_DIR$/lib/Maps/Map.h" />
         <option value="$PROJECT_DIR$/lib/Maps/AStar.h" />
@@ -147,8 +122,9 @@
         <option value="$PROJECT_DIR$/lib/main.cpp" />
         <option value="$PROJECT_DIR$/lib/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/lib/Debug.h" />
-        <option value="$PROJECT_DIR$/lib/library.cpp" />
         <option value="$PROJECT_DIR$/lib/Debug.cpp" />
+        <option value="$PROJECT_DIR$/lib/library.cpp" />
+        <option value="$PROJECT_DIR$/lib/Maps/Map.cpp" />
         <option value="$PROJECT_DIR$/lib/Maps/AStar.cpp" />
       </list>
     </option>
@@ -171,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,16 +235,18 @@
       <workItem from="1540700243580" duration="189000" />
       <workItem from="1540701605424" duration="191000" />
       <workItem from="1540702001070" duration="1041000" />
+      <workItem from="1540703314393" duration="371000" />
+      <workItem from="1540703982356" duration="710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17712000" />
+    <option name="totallyTimeSpent" value="18793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1424" y="-11" width="1297" height="780" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27622098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28582865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,20 +303,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.h" />
-    <entry file="file://$PROJECT_DIR$/lib/Maps/Map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Maps/Map.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Maps/Djikstra.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
@@ -353,20 +317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/library.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Debug.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,26 +352,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Maps/Map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/library.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="484">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding>
             <element signature="e#42#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/library.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Maps/Map.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Maps/AStar.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="257">
+          <caret line="613" column="33" lean-forward="true" selection-start-line="613" selection-start-column="33" selection-end-line="613" selection-end-column="33" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

@@ -8,7 +8,7 @@ public class Terrain : MonoBehaviour {
 	[DllImport("liblib.so")]
 	static extern IntPtr getMap(int level);
 	[DllImport("liblib.so")]
-	static extern void SendPositions(IntPtr map,int xi, float yi, float xf, float yf);
+	static extern void SendPositions(IntPtr map,int xi, int yi, int xf, int yf);
     [DllImport("liblib.so")]
 	static extern int GetListLenght(IntPtr map);
 	[DllImport("liblib.so")]
@@ -50,9 +50,11 @@ public class Terrain : MonoBehaviour {
     /// <param name="finit">Finit.</param>
 	void AddToList(Vector3 init, Vector3 finit){
 		SendPositions(map, (int) init.x / 4, (int) init.z / 4, (int) finit.x / 4, (int) finit.z / 4);
-		int lenght = GetListLenght(map);
-		for (int i = 0; i < lenght/2;i++){
-			Debug.Log(new Vector3(GetListLenght(map), 0.25f, GetListLenght(map)));
+		int lenght = GetListLenght(map)/2;
+		for (int i = 0; i < lenght;i++){
+			Vector3 pos = new Vector3(GetListPosition(map)*4, 0.25f, GetListPosition(map)*4);
+			Debug.Log(pos);
+			positions.Add(pos);
 		}
 	}
     /// <summary>
@@ -81,6 +83,6 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <param name="newPos">New position.</param>
 	void setPlayerPos(Vector3 newPos){
-		player.GetComponent<Spawn>().Move(newPos);   
+		player.GetComponent<Spawn>().Move(newPos);  
 	}
 }

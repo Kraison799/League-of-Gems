@@ -607,6 +607,10 @@ void AStar::aStarSearch(int grid[][COL], Pair src, Pair dest)
 
 //Funciones de Gabo JAJA XD
 void AStar::getPositions(int xi, int yi,int xf,int yf){
+    Debug::Log(xi);
+    Debug::Log(yi);
+    Debug::Log(xf);
+    Debug::Log(yf);
     Pair src = make_pair(xi, yi);
     Pair dest = make_pair(xf, yf);
     aStarSearch(this->grid, src, dest);
