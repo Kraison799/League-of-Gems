@@ -33,9 +33,12 @@ The matrix is a two dimensions data structure that save a list of lists.
 The A* Search algorithm takes a starting node from the graph and generate a tree with the paths it can take until the algorithm finds the target node, then the tree gives the path that reach the target.
 * Prim:
 This algorithm takes a starting position into a graph and the takes the edges with the lowest cost from there until it gets a minimal spanning tree.
+![prim](https://user-images.githubusercontent.com/29305622/47631429-9e31ff00-db0b-11e8-80fa-160f6bdf5ae6.gif)
 * Dijkstra:
+![dijkstra](https://user-images.githubusercontent.com/29305622/47631436-a38f4980-db0b-11e8-8d83-7793d5eb4fd7.jpg)
 * Kruskal:
 This algorithm takes the edges from the lowest cost to the highest and conect the nodes until there is a minimal spanning tree.
+![kruskal](https://user-images.githubusercontent.com/29305622/47631417-8f4b4c80-db0b-11e8-9342-4eedceb5f800.gif)
 ### Genetic Algorithm:
 The genetic algorithm will create a starting wave of minions for the first level, and for the others it will take the previous level's wave and get the best minion for each class, then it will generate minions with similar stats.
 ## Bugs
