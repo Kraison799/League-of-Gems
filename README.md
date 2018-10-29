@@ -37,6 +37,7 @@ This algorithm takes a starting position into a graph and the takes the edges wi
 * Kruskal:
 This algorithm takes the edges from the lowest cost to the highest and conect the nodes until there is a minimal spanning tree.
 ### Genetic Algorithm:
+The genetic algorithm will create a starting wave of minions for the first level, and for the others it will take the previous level's wave and get the best minion for each class, then it will generate minions with similar stats.
 ## Bugs
 ## About
 Instituto Tecnológico de Costa Rica
@@ -46,5 +47,5 @@ Proyecto #2 - League of Gems
 ### Miembros:
 * Víctor Castrillo Muñoz (2017110244)
 * Gabriel Abarca Aguilar (2017110442)
-* María Ávila ()
+* María Ávila Marin (2014089607)
 * Roger Mora González (2017115791)
