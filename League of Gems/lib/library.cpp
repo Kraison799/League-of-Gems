@@ -6,6 +6,7 @@
 #include "Maps/Map.h"
 #include "Maps/AStar.h"
 #include "Debug.h"
+#include "Maps/Bresenham.h"
 
 #include <iostream>
 
@@ -20,7 +21,7 @@ LIB_LIBRARY_H Map* getMap(int level){
     if (level == 1){
         Debug::Log("using SightLine",Color::Blue);
         std::cout<< "printing SightLine" <<endl;
-        return new AStar;
+        return new Bresenham;
     }
     else if(level == 2){
         Debug::Log("using Djikstra",Color::Blue);

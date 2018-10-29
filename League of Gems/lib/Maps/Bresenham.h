@@ -10,6 +10,7 @@
 
 class Bresenham : public Map{
 public:
+    void bresenham(int x1, int y1, int x2, int y2);
     void getPositions(int xi, int yi, int xf, int yf) override;
 };
 
