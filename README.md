@@ -27,6 +27,8 @@ Data structure that saves an element into a greater data structure which will re
 The list is a linear collection of nodes.
 * Matrix:
 The matrix is a two dimensions data structure that save a list of lists.
+* Graph:
+The graph is a collection of nodes that references any number of other nodes.
 ## Algorithms
 ### Pathfinding:
 * A* Search:
@@ -41,7 +43,6 @@ This algorithm takes the edges from the lowest cost to the highest and conect th
 ![kruskal](https://user-images.githubusercontent.com/29305622/47631417-8f4b4c80-db0b-11e8-9342-4eedceb5f800.gif)
 ### Genetic Algorithm:
 The genetic algorithm will create a starting wave of minions for the first level, and for the others it will take the previous level's wave and get the best minion for each class, then it will generate minions with similar stats.
-## Bugs
 ## About
 Instituto Tecnológico de Costa Rica
 Área Académica Ingeniería en Computadores
