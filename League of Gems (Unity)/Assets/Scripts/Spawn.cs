@@ -13,15 +13,14 @@ public class Spawn : MonoBehaviour {
     //Methods
 	public float speed = 10f;
 	public GameObject minions;
-	//public List<GameObject> minionList = new List<GameObject>(); 
+
+
 	// Use this for initialization
 	void Start () {
 		//createMinions(64);
 		for (int i = 0; i < 64; i++){
 			Vector3 position = setPosition(i);
-			GameObject minion = Instantiate(minions, position, transform.rotation,transform);
-			//minion.GetComponent<Movement>().setMinionC(getMinion(i));
-			//minionList.Add(minion);
+			GameObject minion = Instantiate(minions, position+transform.position, transform.rotation,transform);
 		}  
 	}
 	
@@ -37,15 +36,7 @@ public class Spawn : MonoBehaviour {
     /// <param name="new_position">New position.</param>
 	public void Move(Vector3 new_position)
     {
-		//Jump
-		/*foreach (GameObject min in minionList)
-        {
-            min.GetComponent<Rigidbody>().AddForce(Vector3.up * 0.1f, ForceMode.Impulse);
-
-        }*/
-		//Tranlate position
 		GetComponent<Rigidbody>().MovePosition(new_position*speed);
-
     }
 	Vector3 setPosition(int i){
 		float z = 0;

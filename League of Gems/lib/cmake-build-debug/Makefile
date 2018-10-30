@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/39/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/44/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/39/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/44/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/abstractize/Desktop/League-of-Gems/League of Gems/lib"
+CMAKE_SOURCE_DIR = "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/abstractize/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/abstractize/Desktop/League-of-Gems/League of Gems/lib/
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/39/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/44/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/39/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/44/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abstractize/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" "/home/abstractize/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abstractize/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,222 @@ lib/fast:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
 .PHONY : lib/fast
 
+ADT/List.o: ADT/List.cpp.o
+
+.PHONY : ADT/List.o
+
+# target to build an object file
+ADT/List.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/List.cpp.o
+.PHONY : ADT/List.cpp.o
+
+ADT/List.i: ADT/List.cpp.i
+
+.PHONY : ADT/List.i
+
+# target to preprocess a source file
+ADT/List.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/List.cpp.i
+.PHONY : ADT/List.cpp.i
+
+ADT/List.s: ADT/List.cpp.s
+
+.PHONY : ADT/List.s
+
+# target to generate assembly for a file
+ADT/List.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/List.cpp.s
+.PHONY : ADT/List.cpp.s
+
+Debug.o: Debug.cpp.o
+
+.PHONY : Debug.o
+
+# target to build an object file
+Debug.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Debug.cpp.o
+.PHONY : Debug.cpp.o
+
+Debug.i: Debug.cpp.i
+
+.PHONY : Debug.i
+
+# target to preprocess a source file
+Debug.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Debug.cpp.i
+.PHONY : Debug.cpp.i
+
+Debug.s: Debug.cpp.s
+
+.PHONY : Debug.s
+
+# target to generate assembly for a file
+Debug.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Debug.cpp.s
+.PHONY : Debug.cpp.s
+
+Maps/AStar.o: Maps/AStar.cpp.o
+
+.PHONY : Maps/AStar.o
+
+# target to build an object file
+Maps/AStar.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/AStar.cpp.o
+.PHONY : Maps/AStar.cpp.o
+
+Maps/AStar.i: Maps/AStar.cpp.i
+
+.PHONY : Maps/AStar.i
+
+# target to preprocess a source file
+Maps/AStar.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/AStar.cpp.i
+.PHONY : Maps/AStar.cpp.i
+
+Maps/AStar.s: Maps/AStar.cpp.s
+
+.PHONY : Maps/AStar.s
+
+# target to generate assembly for a file
+Maps/AStar.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/AStar.cpp.s
+.PHONY : Maps/AStar.cpp.s
+
+Maps/Bresenham.o: Maps/Bresenham.cpp.o
+
+.PHONY : Maps/Bresenham.o
+
+# target to build an object file
+Maps/Bresenham.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Bresenham.cpp.o
+.PHONY : Maps/Bresenham.cpp.o
+
+Maps/Bresenham.i: Maps/Bresenham.cpp.i
+
+.PHONY : Maps/Bresenham.i
+
+# target to preprocess a source file
+Maps/Bresenham.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Bresenham.cpp.i
+.PHONY : Maps/Bresenham.cpp.i
+
+Maps/Bresenham.s: Maps/Bresenham.cpp.s
+
+.PHONY : Maps/Bresenham.s
+
+# target to generate assembly for a file
+Maps/Bresenham.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Bresenham.cpp.s
+.PHONY : Maps/Bresenham.cpp.s
+
+Maps/Djikstra.o: Maps/Djikstra.cpp.o
+
+.PHONY : Maps/Djikstra.o
+
+# target to build an object file
+Maps/Djikstra.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Djikstra.cpp.o
+.PHONY : Maps/Djikstra.cpp.o
+
+Maps/Djikstra.i: Maps/Djikstra.cpp.i
+
+.PHONY : Maps/Djikstra.i
+
+# target to preprocess a source file
+Maps/Djikstra.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Djikstra.cpp.i
+.PHONY : Maps/Djikstra.cpp.i
+
+Maps/Djikstra.s: Maps/Djikstra.cpp.s
+
+.PHONY : Maps/Djikstra.s
+
+# target to generate assembly for a file
+Maps/Djikstra.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Djikstra.cpp.s
+.PHONY : Maps/Djikstra.cpp.s
+
+Maps/Kruskal.o: Maps/Kruskal.cpp.o
+
+.PHONY : Maps/Kruskal.o
+
+# target to build an object file
+Maps/Kruskal.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Kruskal.cpp.o
+.PHONY : Maps/Kruskal.cpp.o
+
+Maps/Kruskal.i: Maps/Kruskal.cpp.i
+
+.PHONY : Maps/Kruskal.i
+
+# target to preprocess a source file
+Maps/Kruskal.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Kruskal.cpp.i
+.PHONY : Maps/Kruskal.cpp.i
+
+Maps/Kruskal.s: Maps/Kruskal.cpp.s
+
+.PHONY : Maps/Kruskal.s
+
+# target to generate assembly for a file
+Maps/Kruskal.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Kruskal.cpp.s
+.PHONY : Maps/Kruskal.cpp.s
+
+Maps/Map.o: Maps/Map.cpp.o
+
+.PHONY : Maps/Map.o
+
+# target to build an object file
+Maps/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Map.cpp.o
+.PHONY : Maps/Map.cpp.o
+
+Maps/Map.i: Maps/Map.cpp.i
+
+.PHONY : Maps/Map.i
+
+# target to preprocess a source file
+Maps/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Map.cpp.i
+.PHONY : Maps/Map.cpp.i
+
+Maps/Map.s: Maps/Map.cpp.s
+
+.PHONY : Maps/Map.s
+
+# target to generate assembly for a file
+Maps/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Map.cpp.s
+.PHONY : Maps/Map.cpp.s
+
+Maps/Prim.o: Maps/Prim.cpp.o
+
+.PHONY : Maps/Prim.o
+
+# target to build an object file
+Maps/Prim.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Prim.cpp.o
+.PHONY : Maps/Prim.cpp.o
+
+Maps/Prim.i: Maps/Prim.cpp.i
+
+.PHONY : Maps/Prim.i
+
+# target to preprocess a source file
+Maps/Prim.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Prim.cpp.i
+.PHONY : Maps/Prim.cpp.i
+
+Maps/Prim.s: Maps/Prim.cpp.s
+
+.PHONY : Maps/Prim.s
+
+# target to generate assembly for a file
+Maps/Prim.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Prim.cpp.s
+.PHONY : Maps/Prim.cpp.s
+
 library.o: library.cpp.o
 
 .PHONY : library.o
@@ -150,6 +366,33 @@ library.cpp.s:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/library.cpp.s
 .PHONY : library.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +402,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lib"
+	@echo "... ADT/List.o"
+	@echo "... ADT/List.i"
+	@echo "... ADT/List.s"
+	@echo "... Debug.o"
+	@echo "... Debug.i"
+	@echo "... Debug.s"
+	@echo "... Maps/AStar.o"
+	@echo "... Maps/AStar.i"
+	@echo "... Maps/AStar.s"
+	@echo "... Maps/Bresenham.o"
+	@echo "... Maps/Bresenham.i"
+	@echo "... Maps/Bresenham.s"
+	@echo "... Maps/Djikstra.o"
+	@echo "... Maps/Djikstra.i"
+	@echo "... Maps/Djikstra.s"
+	@echo "... Maps/Kruskal.o"
+	@echo "... Maps/Kruskal.i"
+	@echo "... Maps/Kruskal.s"
+	@echo "... Maps/Map.o"
+	@echo "... Maps/Map.i"
+	@echo "... Maps/Map.s"
+	@echo "... Maps/Prim.o"
+	@echo "... Maps/Prim.i"
+	@echo "... Maps/Prim.s"
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
-	public bool cameraLocked;
+	public bool cameraLocked = false;
 	GameObject player;
 	// Use this for initialization
 	void Start () {
@@ -36,7 +36,7 @@ public class CameraMovement : MonoBehaviour {
 	void movement(){
 		
 		if (cameraLocked){
-			transform.position = (playerPos() + new Vector3(-10f, 10f, 3));
+			transform.position = (playerPos() + new Vector3(-50f, 50f, 3));
 		}else{
 			if (Input.mousePosition.x <= 1f){
 				transform.position = (transform.position + new Vector3(0f, 0f, 1f));
