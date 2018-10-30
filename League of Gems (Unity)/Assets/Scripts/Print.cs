@@ -11,7 +11,7 @@ public class Print : MonoBehaviour {
     {
         RegisterDebugCallback(OnDebugCallback);
     }
-    [DllImport("liblib.so", CallingConvention = CallingConvention.Cdecl)]
+    [DllImport("liblib.dll", CallingConvention = CallingConvention.Cdecl)]
     static extern void RegisterDebugCallback(debugCallback cb);
     //Create string param callback delegate
     delegate void debugCallback(IntPtr request, int color, int size);

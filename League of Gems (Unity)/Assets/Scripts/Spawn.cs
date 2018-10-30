@@ -20,7 +20,7 @@ public class Spawn : MonoBehaviour {
 		//createMinions(64);
 		for (int i = 0; i < 64; i++){
 			Vector3 position = setPosition(i);
-			GameObject minion = Instantiate(minions, position, transform.rotation,transform);
+			GameObject minion = Instantiate(minions, position+transform.position, transform.rotation,transform);
 		}  
 	}
 	
