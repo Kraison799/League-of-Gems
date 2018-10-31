@@ -2,22 +2,17 @@
 // Created by ferathor on 07/10/18.
 //
 
-#include "List.h"
-
 #ifndef LEAGUEOFGEMS_WAVES_H
 #define LEAGUEOFGEMS_WAVES_H
 
+#include "Minion.h"
+
 class Waves {
-    struct Node {
-        List<Minion> minions;
-        Node left;
-        Node right;
-    };
 private:
-    Node head;
+    Minion[] minions;
 public:
     Waves();
-    Minion getMinion(int);
+    void getNewWave();
 };
 
 #endif //LEAGUEOFGEMS_WAVES_H
