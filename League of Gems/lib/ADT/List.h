@@ -157,6 +157,19 @@ public:
             return piv->data;
         }
     }
+    T* getptr(int index)
+    {
+        if(!isEmpty())
+        {
+            Node<T>* piv = p;
+            while(piv != nullptr & index != 0)
+            {
+                piv = piv->next;
+                index--;
+            }
+            return piv->data;
+        }
+    }
     void delFirst()
     {
         if(!isEmpty())

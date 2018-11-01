@@ -5,8 +5,12 @@
 #include <iostream>
 #include "library.h"
 #include "Maps/Map.h"
+#include "Minions/Waves.h"
+#include "ADT/List.h"
+
 
 int main(){
+    /*
     Map* map;
     int lenght;
     //Bresenhan
@@ -43,6 +47,18 @@ int main(){
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
-    }
+    }*/
+
+    /*
+     * Tengo que guardar el elemento de la lista en una variable i despues meter la variable a la lista.
+    Waves waves;
+    Minion minion = waves.getMinions().get(5);
+    cout << waves.getMinions().get(5).getHP() << std::endl;
+    cout << minion.getHP() << std::endl;
+    cout << minion.getDmg(35) << std::endl;
+    cout << minion.getHP() << std::endl;
+    waves.getMinions().edit(minion,5);
+    cout << waves.getMinions().get(5).getHP();*/
+
     return 0;
 }
