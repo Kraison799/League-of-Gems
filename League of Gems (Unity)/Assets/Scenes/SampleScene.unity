@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964128, b: 0.5748176, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3407,31 +3407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1db0bfb634f3cbd44b17a32a17909267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - {fileID: 2800000, guid: 8f73045fe260a1b41ae0ed08a11e457e, type: 3}
-  - {fileID: 2800000, guid: c8b867a657471694eae2acc00ea55976, type: 3}
-  - {fileID: 2800000, guid: 9eed4b32fc2c97740afc9605182cf083, type: 3}
-  - {fileID: 2800000, guid: 0216273286a10084fac53723c9ecacd1, type: 3}
-  - {fileID: 2800000, guid: 59269c1e312e40b448a947ea11cea0a5, type: 3}
-  - {fileID: 2800000, guid: 9d0549a3e382aaf4aaea898c0a9abf5a, type: 3}
-  - {fileID: 2800000, guid: d9c43f0d593dd934f8cf2def7af9f3b5, type: 3}
-  - {fileID: 2800000, guid: d34facf38d34f1f4db6826b932a74230, type: 3}
-  - {fileID: 2800000, guid: 405401a744f104e42a555150861e5e34, type: 3}
-  - {fileID: 2800000, guid: b59c3deaa7ab1444b87cb94c44c643b2, type: 3}
-  - {fileID: 2800000, guid: 121a9c48e4ac69646bbc67f6cd91a2f2, type: 3}
-  - {fileID: 2800000, guid: 07dd37a6193d0c142bd009e2c5bc7c77, type: 3}
-  - {fileID: 2800000, guid: bc3c0b0789d5d6341993be892eaa3cb7, type: 3}
-  - {fileID: 2800000, guid: 17b957b7c4a6063428d33b48d5d982d2, type: 3}
-  - {fileID: 2800000, guid: 20838e709e7126f46a68a17e7059f12d, type: 3}
-  - {fileID: 2800000, guid: b25dea0e72de7e04c90ca6c09a69d217, type: 3}
-  Delay: 0.033
-  curImage: 2
-  setParameters: 1
-  CausticIntensity: 0.5
-  HeightCut: -22.4
-  UnderWaterCut: -6.92
-  CausticsSize: 0.39
-  UpdateProjector: 0
 --- !u!119 &485580560
 Projector:
   m_ObjectHideFlags: 0
@@ -3895,7 +3870,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 676352809}
-  - component: {fileID: 676352808}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -3903,19 +3877,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &676352808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114649815831664204, guid: d99a39a703f4847eca6509e72074ab66,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 676352807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f6961da52f2e43ce9f2968beac73943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  click: {fileID: 1733662423003476, guid: 3f90d9cc9aa31423ca95f83656a17a24, type: 2}
 --- !u!4 &676352809
 Transform:
   m_ObjectHideFlags: 0
@@ -4158,31 +4119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1db0bfb634f3cbd44b17a32a17909267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - {fileID: 2800000, guid: 8f73045fe260a1b41ae0ed08a11e457e, type: 3}
-  - {fileID: 2800000, guid: c8b867a657471694eae2acc00ea55976, type: 3}
-  - {fileID: 2800000, guid: 9eed4b32fc2c97740afc9605182cf083, type: 3}
-  - {fileID: 2800000, guid: 0216273286a10084fac53723c9ecacd1, type: 3}
-  - {fileID: 2800000, guid: 59269c1e312e40b448a947ea11cea0a5, type: 3}
-  - {fileID: 2800000, guid: 9d0549a3e382aaf4aaea898c0a9abf5a, type: 3}
-  - {fileID: 2800000, guid: d9c43f0d593dd934f8cf2def7af9f3b5, type: 3}
-  - {fileID: 2800000, guid: d34facf38d34f1f4db6826b932a74230, type: 3}
-  - {fileID: 2800000, guid: 405401a744f104e42a555150861e5e34, type: 3}
-  - {fileID: 2800000, guid: b59c3deaa7ab1444b87cb94c44c643b2, type: 3}
-  - {fileID: 2800000, guid: 121a9c48e4ac69646bbc67f6cd91a2f2, type: 3}
-  - {fileID: 2800000, guid: 07dd37a6193d0c142bd009e2c5bc7c77, type: 3}
-  - {fileID: 2800000, guid: bc3c0b0789d5d6341993be892eaa3cb7, type: 3}
-  - {fileID: 2800000, guid: 17b957b7c4a6063428d33b48d5d982d2, type: 3}
-  - {fileID: 2800000, guid: 20838e709e7126f46a68a17e7059f12d, type: 3}
-  - {fileID: 2800000, guid: b25dea0e72de7e04c90ca6c09a69d217, type: 3}
-  Delay: 0.033
-  curImage: 2
-  setParameters: 1
-  CausticIntensity: 0.5
-  HeightCut: -22.4
-  UnderWaterCut: -6.92
-  CausticsSize: 0.39
-  UpdateProjector: 0
 --- !u!119 &714439124
 Projector:
   m_ObjectHideFlags: 0
@@ -6965,31 +6901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1db0bfb634f3cbd44b17a32a17909267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - {fileID: 2800000, guid: 8f73045fe260a1b41ae0ed08a11e457e, type: 3}
-  - {fileID: 2800000, guid: c8b867a657471694eae2acc00ea55976, type: 3}
-  - {fileID: 2800000, guid: 9eed4b32fc2c97740afc9605182cf083, type: 3}
-  - {fileID: 2800000, guid: 0216273286a10084fac53723c9ecacd1, type: 3}
-  - {fileID: 2800000, guid: 59269c1e312e40b448a947ea11cea0a5, type: 3}
-  - {fileID: 2800000, guid: 9d0549a3e382aaf4aaea898c0a9abf5a, type: 3}
-  - {fileID: 2800000, guid: d9c43f0d593dd934f8cf2def7af9f3b5, type: 3}
-  - {fileID: 2800000, guid: d34facf38d34f1f4db6826b932a74230, type: 3}
-  - {fileID: 2800000, guid: 405401a744f104e42a555150861e5e34, type: 3}
-  - {fileID: 2800000, guid: b59c3deaa7ab1444b87cb94c44c643b2, type: 3}
-  - {fileID: 2800000, guid: 121a9c48e4ac69646bbc67f6cd91a2f2, type: 3}
-  - {fileID: 2800000, guid: 07dd37a6193d0c142bd009e2c5bc7c77, type: 3}
-  - {fileID: 2800000, guid: bc3c0b0789d5d6341993be892eaa3cb7, type: 3}
-  - {fileID: 2800000, guid: 17b957b7c4a6063428d33b48d5d982d2, type: 3}
-  - {fileID: 2800000, guid: 20838e709e7126f46a68a17e7059f12d, type: 3}
-  - {fileID: 2800000, guid: b25dea0e72de7e04c90ca6c09a69d217, type: 3}
-  Delay: 0.033
-  curImage: 7
-  setParameters: 1
-  CausticIntensity: 0.5
-  HeightCut: -22.4
-  UnderWaterCut: -6.92
-  CausticsSize: 0.39
-  UpdateProjector: 0
 --- !u!119 &1080197379
 Projector:
   m_ObjectHideFlags: 0
@@ -7227,6 +7138,7 @@ GameObject:
   - component: {fileID: 1188462323}
   - component: {fileID: 1188462322}
   - component: {fileID: 1188462326}
+  - component: {fileID: 1188462327}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Ground
@@ -7315,6 +7227,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1733662423003476, guid: 3f90d9cc9aa31423ca95f83656a17a24, type: 2}
+--- !u!114 &1188462327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1188462321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e39c88f5bf9b314fa7d571e783cb4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealCircle: {fileID: 1474883790200308, guid: 3baa587b7cfaea14282911990d413c28, type: 2}
+  MeteorCircle: {fileID: 0}
 --- !u!1 &1196463853
 GameObject:
   m_ObjectHideFlags: 0
