@@ -6,6 +6,7 @@ using AssemblyCSharp.Assets.Scripts;
 public class Player : MonoBehaviour
 {
     GameObject selectedhorde;
+    public float speed = 0.1f;
     public GameObject horde;
     List<GameObject> hordes = new List<GameObject>();
     public Vector3 position;
