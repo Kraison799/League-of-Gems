@@ -7,7 +7,7 @@ public class CameraMovement : MonoBehaviour {
 	GameObject player;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindGameObjectWithTag("minions");
+		player = GameObject.FindGameObjectWithTag("Player");
 		cameraLocked = true;
 	}
 
@@ -60,6 +60,6 @@ public class CameraMovement : MonoBehaviour {
     /// <returns>The position.</returns>
     Vector3 playerPos()
     {
-			return player.transform.position;
+			return player.GetComponent<Player>().Selectedhorde.transform.position;
     }
 }

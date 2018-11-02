@@ -97,8 +97,11 @@
     <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Math3d.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Formation.cs" />
     <Compile Include="Assets\Scripts\Gem.cs" />
+    <Compile Include="Assets\Scripts\Horde.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Print.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\Terrain.cs" />

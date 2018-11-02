@@ -22,7 +22,7 @@ public class Terrain : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Debug.Log("Created");
-		player = GameObject.FindGameObjectWithTag("minions");
+		player = GameObject.FindGameObjectWithTag("Player");
 		map = getMap(5);
 	}
 	
@@ -89,13 +89,13 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <returns>The position.</returns>
 	Vector3 playerPos(){
-		return player.GetComponent<Rigidbody>().position;
-	}
+        return player.GetComponent<Player>().Selectedhorde.GetComponent<Rigidbody>().position;
+    }
     /// <summary>
     /// Sets the player position to the first on the list
     /// </summary>
     /// <param name="newPos">New position.</param>
 	void setPlayerPos(Vector3 newPos){
-		player.GetComponent<Spawn>().Move(newPos);  
-	}
+        player.GetComponent<Player>().Selectedhorde.GetComponent<Horde>().Move(newPos);
+    }
 }
