@@ -5,12 +5,20 @@ using AssemblyCSharp.Assets.Scripts;
 
 public class Player : MonoBehaviour
 {
+    GameObject Area;
+    GameObject Meteor;
     GameObject selectedhorde;
     public float speed = 0.1f;
     public GameObject horde;
     List<GameObject> hordes = new List<GameObject>();
     public Vector3 position;
     public Formation formation;
+    public GameObject healArea;
+    public GameObject meteorArea;
+    public GameObject meteor;
+    public GameObject sparkArea;
+    public GameObject tower;
+
     // Use this for initialization
     void Start()
     {
@@ -33,6 +41,28 @@ public class Player : MonoBehaviour
             selectedhorde = hordes[hordes.Count-1];
 
         }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            HealHorde();
+
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            MeteorMash();
+
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SlowHorde();
+
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            CreateTower();
+
+        }
+        Area.transform.localScale += new Vector3(1, 0, 1);
+
     }
     //Getters and Setters
     public GameObject Selectedhorde
@@ -47,6 +77,32 @@ public class Player : MonoBehaviour
             selectedhorde = value;
         }
     }
+
+    void HealHorde()
+    {
+        Area = Instantiate(healArea, mousePos(), transform.rotation);
+        Destroy(Area,3f);
+    }
+
+    void MeteorMash()
+    {
+        Area = Instantiate(meteorArea, mousePos(), transform.rotation);
+        meteor = Instantiate(meteor, Area.transform.position + Vector3.up*50, transform.rotation);
+        
+        Destroy(Area, 3f);
+        Destroy(meteor, 3f);
+
+    }
+    void SlowHorde()
+    {
+        Area = Instantiate(sparkArea, mousePos(), transform.rotation);
+        Destroy(Area, 3f);
+    }
+    void CreateTower()
+    {
+        Instantiate(tower, mousePos(), transform.rotation);
+    }
+
     Vector3 mousePos()
     {
         RaycastHit hit;

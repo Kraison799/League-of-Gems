@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour {
 		//MaxHp = getMaxHp();
 		//Hp = getHp();
 		//evaluateHp();
-		Attack();
+		//Attack();
 	}
 	void OnCollide(Collision collision){
         

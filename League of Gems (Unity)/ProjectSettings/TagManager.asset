@@ -6,6 +6,11 @@ TagManager:
   tags:
   - minions
   - Ground
+  - FireSpawn
+  - Tower
+  - Spark
+  - Heal
+  - MeteorMash
   layers:
   - Default
   - TransparentFX

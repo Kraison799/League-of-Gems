@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964128, b: 0.5748176, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3353,31 +3353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1db0bfb634f3cbd44b17a32a17909267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - {fileID: 2800000, guid: 8f73045fe260a1b41ae0ed08a11e457e, type: 3}
-  - {fileID: 2800000, guid: c8b867a657471694eae2acc00ea55976, type: 3}
-  - {fileID: 2800000, guid: 9eed4b32fc2c97740afc9605182cf083, type: 3}
-  - {fileID: 2800000, guid: 0216273286a10084fac53723c9ecacd1, type: 3}
-  - {fileID: 2800000, guid: 59269c1e312e40b448a947ea11cea0a5, type: 3}
-  - {fileID: 2800000, guid: 9d0549a3e382aaf4aaea898c0a9abf5a, type: 3}
-  - {fileID: 2800000, guid: d9c43f0d593dd934f8cf2def7af9f3b5, type: 3}
-  - {fileID: 2800000, guid: d34facf38d34f1f4db6826b932a74230, type: 3}
-  - {fileID: 2800000, guid: 405401a744f104e42a555150861e5e34, type: 3}
-  - {fileID: 2800000, guid: b59c3deaa7ab1444b87cb94c44c643b2, type: 3}
-  - {fileID: 2800000, guid: 121a9c48e4ac69646bbc67f6cd91a2f2, type: 3}
-  - {fileID: 2800000, guid: 07dd37a6193d0c142bd009e2c5bc7c77, type: 3}
-  - {fileID: 2800000, guid: bc3c0b0789d5d6341993be892eaa3cb7, type: 3}
-  - {fileID: 2800000, guid: 17b957b7c4a6063428d33b48d5d982d2, type: 3}
-  - {fileID: 2800000, guid: 20838e709e7126f46a68a17e7059f12d, type: 3}
-  - {fileID: 2800000, guid: b25dea0e72de7e04c90ca6c09a69d217, type: 3}
-  Delay: 0.033
-  curImage: 2
-  setParameters: 1
-  CausticIntensity: 0.5
-  HeightCut: -22.4
-  UnderWaterCut: -6.92
-  CausticsSize: 0.39
-  UpdateProjector: 0
 --- !u!119 &485580560
 Projector:
   m_ObjectHideFlags: 0
@@ -4104,31 +4079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1db0bfb634f3cbd44b17a32a17909267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - {fileID: 2800000, guid: 8f73045fe260a1b41ae0ed08a11e457e, type: 3}
-  - {fileID: 2800000, guid: c8b867a657471694eae2acc00ea55976, type: 3}
-  - {fileID: 2800000, guid: 9eed4b32fc2c97740afc9605182cf083, type: 3}
-  - {fileID: 2800000, guid: 0216273286a10084fac53723c9ecacd1, type: 3}
-  - {fileID: 2800000, guid: 59269c1e312e40b448a947ea11cea0a5, type: 3}
-  - {fileID: 2800000, guid: 9d0549a3e382aaf4aaea898c0a9abf5a, type: 3}
-  - {fileID: 2800000, guid: d9c43f0d593dd934f8cf2def7af9f3b5, type: 3}
-  - {fileID: 2800000, guid: d34facf38d34f1f4db6826b932a74230, type: 3}
-  - {fileID: 2800000, guid: 405401a744f104e42a555150861e5e34, type: 3}
-  - {fileID: 2800000, guid: b59c3deaa7ab1444b87cb94c44c643b2, type: 3}
-  - {fileID: 2800000, guid: 121a9c48e4ac69646bbc67f6cd91a2f2, type: 3}
-  - {fileID: 2800000, guid: 07dd37a6193d0c142bd009e2c5bc7c77, type: 3}
-  - {fileID: 2800000, guid: bc3c0b0789d5d6341993be892eaa3cb7, type: 3}
-  - {fileID: 2800000, guid: 17b957b7c4a6063428d33b48d5d982d2, type: 3}
-  - {fileID: 2800000, guid: 20838e709e7126f46a68a17e7059f12d, type: 3}
-  - {fileID: 2800000, guid: b25dea0e72de7e04c90ca6c09a69d217, type: 3}
-  Delay: 0.033
-  curImage: 2
-  setParameters: 1
-  CausticIntensity: 0.5
-  HeightCut: -22.4
-  UnderWaterCut: -6.92
-  CausticsSize: 0.39
-  UpdateProjector: 0
 --- !u!119 &714439124
 Projector:
   m_ObjectHideFlags: 0
@@ -6911,31 +6861,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1db0bfb634f3cbd44b17a32a17909267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  images:
-  - {fileID: 2800000, guid: 8f73045fe260a1b41ae0ed08a11e457e, type: 3}
-  - {fileID: 2800000, guid: c8b867a657471694eae2acc00ea55976, type: 3}
-  - {fileID: 2800000, guid: 9eed4b32fc2c97740afc9605182cf083, type: 3}
-  - {fileID: 2800000, guid: 0216273286a10084fac53723c9ecacd1, type: 3}
-  - {fileID: 2800000, guid: 59269c1e312e40b448a947ea11cea0a5, type: 3}
-  - {fileID: 2800000, guid: 9d0549a3e382aaf4aaea898c0a9abf5a, type: 3}
-  - {fileID: 2800000, guid: d9c43f0d593dd934f8cf2def7af9f3b5, type: 3}
-  - {fileID: 2800000, guid: d34facf38d34f1f4db6826b932a74230, type: 3}
-  - {fileID: 2800000, guid: 405401a744f104e42a555150861e5e34, type: 3}
-  - {fileID: 2800000, guid: b59c3deaa7ab1444b87cb94c44c643b2, type: 3}
-  - {fileID: 2800000, guid: 121a9c48e4ac69646bbc67f6cd91a2f2, type: 3}
-  - {fileID: 2800000, guid: 07dd37a6193d0c142bd009e2c5bc7c77, type: 3}
-  - {fileID: 2800000, guid: bc3c0b0789d5d6341993be892eaa3cb7, type: 3}
-  - {fileID: 2800000, guid: 17b957b7c4a6063428d33b48d5d982d2, type: 3}
-  - {fileID: 2800000, guid: 20838e709e7126f46a68a17e7059f12d, type: 3}
-  - {fileID: 2800000, guid: b25dea0e72de7e04c90ca6c09a69d217, type: 3}
-  Delay: 0.033
-  curImage: 7
-  setParameters: 1
-  CausticIntensity: 0.5
-  HeightCut: -22.4
-  UnderWaterCut: -6.92
-  CausticsSize: 0.39
-  UpdateProjector: 0
 --- !u!119 &1080197379
 Projector:
   m_ObjectHideFlags: 0
@@ -7156,9 +7081,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5c48513d95f3d4ab15a66fe541ed1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   horde: {fileID: 1847827005745006, guid: 1a08b60ce73af4523a644bc3ced6f320, type: 2}
   position: {x: 420, y: 2, z: 150}
   formation: 0
+  healArea: {fileID: 1829956537967800, guid: 2e1499ea8fa8e9c4da31aebc770758ef, type: 2}
+  meteorArea: {fileID: 1591326987082990, guid: 001a5c22e1ff132478041ee5a9bf540b, type: 2}
+  meteor: {fileID: 1215395813047054, guid: f3c054e8e536a1348a1d62138747c9ac, type: 2}
+  sparkArea: {fileID: 1854749673321170, guid: 7d106890a8c073a4caebf447f801c708, type: 2}
+  tower: {fileID: 1938158078629566, guid: 869ff2958bff8eb4aabdf1f0691cfcf1, type: 2}
 --- !u!4 &1166411312
 Transform:
   m_ObjectHideFlags: 0
