@@ -12,6 +12,7 @@ public class Horde : MonoBehaviour
     [DllImport("liblib.so")]
     static extern IntPtr getMinion(int pos);*/
     //Methods
+    public float y;
     public int minionsCap;
     public float speed = 10f;
     public GameObject minions;
@@ -110,12 +111,12 @@ public class Horde : MonoBehaviour
         {
             z = 7f;
         }
-        return new Vector3(i % 8, 0.25f, z) * 3;
+        return new Vector3(i % 8, y, z) * 3;
     }
 
 private Vector3 arrangeRow(int minion, int minionMax)
     {
-        return new Vector3(minion, 0.25f, 0f) * 3f;
+        return new Vector3(minion, y, 0f) * 3f;
     }
 
     /// <summary>
@@ -126,7 +127,7 @@ private Vector3 arrangeRow(int minion, int minionMax)
     Vector3 arrangeCircle(int minion, int minionMax)
     {
         float angle = Mathf.PI * 2 * minion / minionMax;
-        return new Vector3(Mathf.Cos(angle), 0.25f, Mathf.Sin(angle)) * minionMax / 4;
+        return new Vector3(Mathf.Cos(angle), y, Mathf.Sin(angle)) * minionMax / 4;
     }
     public void Split()
     {

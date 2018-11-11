@@ -70,7 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minionsCap: 64
   speed: 10
-  minions: {fileID: 1730304500607016, guid: 7433ce0c415290b4eabc70e17ad15abc, type: 2}
+  minions: {fileID: 1752155301463020, guid: c28b110fa7053b94ea72f15fb933ee6c, type: 2}
   formation: 0
   minionList: []
 --- !u!114 &114444158747153892

@@ -11,6 +11,9 @@ TagManager:
   - Spark
   - Heal
   - MeteorMash
+  - Fire
+  - FriendlyFire
+  - EnemyFire
   layers:
   - Default
   - TransparentFX

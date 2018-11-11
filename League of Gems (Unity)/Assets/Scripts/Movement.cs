@@ -18,23 +18,41 @@ public class Movement : MonoBehaviour {
     Transform fireSpawn;
 	int MaxHp = 100;
 	int Hp = 100;
-	// Use this for initialization
-	void Start () {
+    public SimpleHealthBar healthBar;
+    // Use this for initialization
+    void Start () {
 		//MaxHp = getMaxHp();
 		//Hp = getHp();
 		fireSpawn = transform.GetChild(0).GetChild(0).transform;
-	}
+        healthBar.UpdateBar(Hp, MaxHp);
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		//MaxHp = getMaxHp();
-		//Hp = getHp();
-		//evaluateHp();
-		//Attack();
-	}
-	void OnCollide(Collision collision){
+        //MaxHp = getMaxHp();
+        //Hp = getHp();
+        //evaluateHp();
+
+        
+        if (Hp == 0)
+        {
+            Destroy(gameObject);
+        }        
         
 	}
+	void OnCollisionEnter(Collision collision){
+        if (collision.gameObject.tag.Equals("EnemyFire"))
+        {
+            Destroy(collision.gameObject);
+            
+            healthBar.UpdateBar(--Hp, MaxHp);
+        }
+        if (collision.gameObject.tag.Equals("FriendlyFire"))
+        {
+            Physics.IgnoreCollision(GetComponent<Collider>(), collision.gameObject.GetComponent<Collider>());
+            Destroy(collision.gameObject);
+        }
+    }
 	private void Attack()
     {
         // Create the Bullet from the Bullet Prefab
