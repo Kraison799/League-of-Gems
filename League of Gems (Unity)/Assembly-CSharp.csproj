@@ -61,40 +61,89 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Extern Assets\DCG Shaders\Water Shader\_Resources\causticsProjector.cs" />
+    <Compile Include="Assets\Extern Assets\DCG Shaders\Water Shader\_Resources\MirrorReflection.cs" />
+    <Compile Include="Assets\Extern Assets\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Extern Assets\Knight\scripts\rotator.cs" />
+    <Compile Include="Assets\Extern Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+    <Compile Include="Assets\Extern Assets\MoveMotionPack\SampleScene\Scripts\PlayManager.cs" />
+    <Compile Include="Assets\Extern Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\CameraController.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\GUIControls.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\RPGCharacterControllerFREE.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\RPGCharacterInputController.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\RPGCharacterMovementController.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\Gravity.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BruteForceMesh.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCharacterController.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollider.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
+    <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\Extern Assets\RPGPackFree\Scripts\BowString.cs" />
+    <Compile Include="Assets\Extern Assets\RPGPackFree\Scripts\OpenChest.cs" />
+    <Compile Include="Assets\Extern Assets\Simple Health Bar\_Asteroids Example\Scripts\AsteroidController.cs" />
+    <Compile Include="Assets\Extern Assets\Simple Health Bar\_Asteroids Example\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Extern Assets\Simple Health Bar\_Asteroids Example\Scripts\HealthPickupController.cs" />
+    <Compile Include="Assets\Extern Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Extern Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Extern Assets\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
+    <Compile Include="Assets\Extern Assets\Snow Package\Demo\ExtendedFlycam.cs" />
+    <Compile Include="Assets\Extern Assets\Winter Zone Mini 1.0\Scripts\EmitterPositionController.cs" />
+    <Compile Include="Assets\Extern Assets\Winter Zone Mini 1.0\Scripts\FXDemoController.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
-    <Compile Include="Assets\RPGPackFree\Scripts\BowString.cs" />
-    <Compile Include="Assets\RPGPackFree\Scripts\OpenChest.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyGem.cs" />
+    <Compile Include="Assets\Scripts\EnemyHorde.cs" />
+    <Compile Include="Assets\Scripts\EnemyMinions.cs" />
     <Compile Include="Assets\Scripts\Formation.cs" />
     <Compile Include="Assets\Scripts\Gem.cs" />
     <Compile Include="Assets\Scripts\Horde.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerGem.cs" />
+    <Compile Include="Assets\Scripts\PlayerMinions.cs" />
     <Compile Include="Assets\Scripts\Print.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\Terrain.cs" />
     <Compile Include="Assets\Scripts\Tower.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\AsteroidController.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\HealthPickupController.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
-    <None Include="Assets\Simple Health Bar\README.txt" />
+    <None Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Extern Assets\Simple Health Bar\README.txt" />
+    <None Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Extern Assets\DCG Shaders\Water Shader\Shaders\WaterSurface PBR - DX9 - OpenGL.shader" />
+    <None Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/gababarca/Documents/League-of-Gems-Minions-Structures/League of Gems (Unity)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>S:/League-of-Gems/LoG/League-of-Gems/League of Gems (Unity)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/gababarca/Documents/League-of-Gems-Minions-Structures/League of Gems (Unity)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>S:/League-of-Gems/LoG/League-of-Gems/League of Gems (Unity)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/gababarca/Documents/League-of-Gems-Minions-Structures/League of Gems (Unity)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>S:/League-of-Gems/LoG/League-of-Gems/League of Gems (Unity)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/gababarca/Documents/League-of-Gems-Minions-Structures/League of Gems (Unity)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>S:/League-of-Gems/LoG/League-of-Gems/League of Gems (Unity)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -280,7 +329,7 @@
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/gababarca/Documents/League-of-Gems-Minions-Structures/League of Gems (Unity)/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>S:/League-of-Gems/LoG/League-of-Gems/League of Gems (Unity)/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

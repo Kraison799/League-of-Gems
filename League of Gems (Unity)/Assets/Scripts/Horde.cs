@@ -34,9 +34,7 @@ public class Horde : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Input.GetKey(KeyCode.W)){
-            transform.Translate(Vector3.forward);
-        }*/
+
     }
     /// <summary>
     /// Move the specified new_position.
@@ -45,7 +43,7 @@ public class Horde : MonoBehaviour
     public void Move(Vector3 new_position)
     {
         //Tranlate position
-        GetComponent<Rigidbody>().MovePosition(new_position);
+        transform.position=new_position;
     }
     /// <summary>
     /// Arrange the specified minion.

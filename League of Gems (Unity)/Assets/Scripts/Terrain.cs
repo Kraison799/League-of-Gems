@@ -103,7 +103,7 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <returns>The position.</returns>
 	Vector3 playerPos(){
-        return player.GetComponent<Player>().Selectedhorde.GetComponent<Rigidbody>().position;
+        return player.GetComponent<Player>().Selectedhorde.transform.position;
     }
     /// <summary>
     /// Sets the player position to the first on the list

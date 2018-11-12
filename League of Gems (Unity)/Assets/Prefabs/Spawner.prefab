@@ -19,12 +19,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4913921320894832}
-  - component: {fileID: 114444158747153892}
-  - component: {fileID: 54958873587492956}
   - component: {fileID: 114000649981415164}
+  - component: {fileID: 135727726281304206}
   m_Layer: 0
   m_Name: Spawner
-  m_TagString: minions
+  m_TagString: Horde
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,21 +41,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &54958873587492956
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847827005745006}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &114000649981415164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,21 +52,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d95bc2d24038054a9c185eb458c5510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  y: 0.25
   minionsCap: 64
   speed: 10
   minions: {fileID: 1752155301463020, guid: c28b110fa7053b94ea72f15fb933ee6c, type: 2}
   formation: 0
   minionList: []
---- !u!114 &114444158747153892
-MonoBehaviour:
+--- !u!135 &135727726281304206
+SphereCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1847827005745006}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 492ba21331f5944468da252f4c3c95a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  minions: {fileID: 1112066272977136, guid: 1f8aa2766c30745b387e3df42d95af76, type: 2}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}

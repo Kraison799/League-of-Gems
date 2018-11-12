@@ -36,21 +36,23 @@ public class CameraMovement : MonoBehaviour {
 	void movement(){
 		
 		if (cameraLocked){
-			transform.position = (playerPos() + new Vector3(-20f, 20f, 3));
+			transform.position = (playerPos() + new Vector3(-30f, 30f, 3));
 		}else{
-			if (Input.mousePosition.x <= 1f){
-				transform.position = (transform.position + new Vector3(0f, 0f, 1f));
-			}
-			if (Input.mousePosition.y <= 1f){
-				transform.position = (transform.position - new Vector3(1f, 0f, 0f));
-			}
-			if (Input.mousePosition.x >= Screen.width-1)
+			if (Input.mousePosition.x <= 1f || Input.GetKey(KeyCode.A))
             {
-                transform.position = (transform.position - new Vector3(0f, 0f, 1f));
+				transform.position = (transform.position + new Vector3(0f, 0f, 2f));
+			}
+			if (Input.mousePosition.y <= 1f || Input.GetKey(KeyCode.S))
+            {
+				transform.position = (transform.position - new Vector3(2f, 0f, 0f));
+			}
+			if (Input.mousePosition.x >= Screen.width-1 || Input.GetKey(KeyCode.D))
+            {
+                transform.position = (transform.position - new Vector3(0f, 0f, 2f));
             }
-			if (Input.mousePosition.y >= Screen.height-1)
+			if (Input.mousePosition.y >= Screen.height-1 || Input.GetKey(KeyCode.W))
             {
-                transform.position = (transform.position + new Vector3(1f, 0f, 0f));
+                transform.position = (transform.position + new Vector3(2f, 0f, 0f));
             }
 		}
 	}

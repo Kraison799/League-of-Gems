@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     public GameObject sparkArea;
     public GameObject tower;
 
+   
+
     // Use this for initialization
     void Start()
     {
@@ -32,6 +34,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.Q))
         {
             selectedhorde.GetComponent<Horde>().Split();
@@ -61,23 +64,16 @@ public class Player : MonoBehaviour
             CreateTower();
 
         }
-        Area.transform.localScale += new Vector3(1, 0, 1);
+        if(Area != null)
+        {
+            Area.transform.localScale += new Vector3(1, 0, 1);
+        }
+        
 
     }
-    //Getters and Setters
-    public GameObject Selectedhorde
-    {
-        get
-        {
-            return selectedhorde;
-        }
+   
 
-        set
-        {
-            selectedhorde = value;
-        }
-    }
-
+    
     void HealHorde()
     {
         Area = Instantiate(healArea, mousePos(), transform.rotation);
@@ -113,5 +109,17 @@ public class Player : MonoBehaviour
             return hit.point;
         }
         return new Vector3(0f, 0f, 0f);
+    }
+    public GameObject Selectedhorde
+    {
+        get
+        {
+            return selectedhorde;
+        }
+
+        set
+        {
+            selectedhorde = value;
+        }
     }
 }
