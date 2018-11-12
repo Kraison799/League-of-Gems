@@ -16,6 +16,7 @@ Minion::Minion(int hp, int atk, float def, types type) {
     // Define in-game stats
     this->dmgDone = 0;
     this->dmgTaken = 0;
+    this->fury = false;
     // Define pointer
     this->ptr = static_cast<Minion *>(malloc(sizeof(this)));
 }
@@ -44,6 +45,13 @@ void Minion::heal() {
         this->hp = this->maxHP;
     } else {
         this->hp += hpHeal;
+    }
+}
+void Minion::furySwitch() {
+    if (this->fury) {
+        this->fury = false;
+    } else {
+        this->fury = true;
     }
 }
 

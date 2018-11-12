@@ -25,13 +25,15 @@ private:
     // In-game Stats
     int dmgDone;
     int dmgTaken;
+    bool fury;
 public:
     // Constructor and pointer
     Minion(int hp, int atk, float def, types type);
     Minion* getPtr();
-    // Get damage and heal
+    // Get damage, fury and heal
     int getDmg(int enemyAtk);
     void heal();
+    void furySwitch();
     // Update damage done/taken
     void updateDmgDone(int dmg);
     void updateDmgTaken(int dmg);

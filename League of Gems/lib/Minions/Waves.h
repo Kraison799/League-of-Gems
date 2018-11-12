@@ -15,6 +15,9 @@ private:
 public:
     // Constructor
     Waves();
+    // Generate new wave
+    void newWave();
+    Minion getBest(types type);
     // Getter
     Minion getMinion(int index);
     List<Minion> getMinions();
