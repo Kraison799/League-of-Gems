@@ -19,6 +19,7 @@ TagManager:
   - Enemy Horde
   - Enemy
   - Enemy Minion
+  - EnemyNexus
   layers:
   - Default
   - TransparentFX

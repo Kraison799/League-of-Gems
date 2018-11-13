@@ -41,32 +41,61 @@ public class Player : MonoBehaviour
     }
    public IEnumerator Vanish()
     {
+        Debug.Log("Vanishing...");
         foreach (GameObject h in hordes){
             foreach(GameObject min in h.GetComponent<Horde>().minionList)
             {
                 min.GetComponent<Renderer>().enabled = false;
-                yield return new WaitForSeconds(10);
-                min.GetComponent<Renderer>().enabled = true;
             }            
         }
+        yield return new WaitForSeconds(5);
+        foreach (GameObject h in hordes)
+        {
+            foreach (GameObject min in h.GetComponent<Horde>().minionList)
+            {
+                min.GetComponent<Renderer>().enabled = true;
+            }
+        }
     }
-    public void Split()
+    public IEnumerator Split()
     {
+        Debug.Log("Splitting...");
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) == true);
         selectedhorde.GetComponent<Horde>().Split();
         horde.GetComponent<Horde>().minionsCap /= 2;
         GameObject newhorde = Instantiate(horde, mousePos(), transform.rotation);
         hordes.Add(newhorde);
         selectedhorde = hordes[hordes.Count - 1];
+        yield return new WaitForSeconds(10);
     }
     
-    public void HealHorde()
+    public IEnumerator HealHorde()
     {
+        Debug.Log("Healing...");
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) == true);
         Area = Instantiate(healArea, mousePos(), transform.rotation);
         Destroy(Area,3f);
     }
-
-    public void MeteorMash()
+    public IEnumerator Freeze()
     {
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) == true);
+        //Crea zona
+
+        
+        
+        //Destruye
+
+    }
+    public IEnumerator Fury()
+    {
+        //Marshalling de Furia
+        yield return new WaitForSeconds(10);
+    }
+
+    public IEnumerator MeteorMash()
+    {
+        Debug.Log("Damaging...");
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) == true);
         Area = Instantiate(meteorArea, mousePos(), transform.rotation);
         meteor = Instantiate(meteor, Area.transform.position + Vector3.up*50, transform.rotation);
         
@@ -74,13 +103,16 @@ public class Player : MonoBehaviour
         Destroy(meteor, 3f);
 
     }
-    public void Spark()
+    public IEnumerator Spark()
     {
+        Debug.Log("Slowing...");
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) == true);
         Area = Instantiate(sparkArea, mousePos(), transform.rotation);
         Destroy(Area, 3f);
     }
-    public void CreateTower()
+    public IEnumerator CreateTower()
     {
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) == true);
         Instantiate(tower, mousePos(), transform.rotation);
     }
 
@@ -93,7 +125,7 @@ public class Player : MonoBehaviour
         {
             return hit.point;
         }
-        return new Vector3(0f, 0f, 0f);
+        return new Vector3(50f, 50f, 50f);
     }
     public GameObject Selectedhorde
     {

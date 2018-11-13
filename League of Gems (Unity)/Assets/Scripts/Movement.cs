@@ -23,9 +23,10 @@ public class Movement : MonoBehaviour {
     public SimpleHealthBar healthBar;
     // Use this for initialization
     void Start () {
-		//MaxHp = getMaxHp();
-		//Hp = getHp();
-		fireSpawn = transform.GetChild(0).GetChild(0).transform;
+        //MaxHp = getMaxHp();
+        //Hp = getHp();
+        gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
+        fireSpawn = transform.GetChild(0).GetChild(0).transform;
         healthBar.UpdateBar(Hp, MaxHp);
     }
 	

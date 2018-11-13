@@ -19,7 +19,14 @@ public class PlayerMinions : MonoBehaviour
         while (true)
         {
             var possibleTargets = GameObject.FindGameObjectsWithTag("Enemy Minion");
-            randomMinion = possibleTargets[Random.Range(0, possibleTargets.Length-1)].transform;
+            if (possibleTargets.Length == 0)
+            {
+                randomMinion = GameObject.FindWithTag("EnemyNexus").transform;
+            }
+            else
+            {
+                randomMinion = possibleTargets[Random.Range(0, possibleTargets.Length - 1)].transform;
+            }
             yield return new WaitForSeconds(10);
         }
         

@@ -35,7 +35,10 @@ public class EnemyHorde : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
+        if (GameObject.FindGameObjectsWithTag("Enemy Minion").Length == 0)
+        {
+            Destroy(gameObject);
+        }
     }
     /// <summary>
     /// Move the specified new_position.

@@ -9,38 +9,77 @@ public class Button : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            StartCoroutine(player.Split());
+
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            StartCoroutine(player.Vanish());
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            StartCoroutine(player.MeteorMash());
+
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            StartCoroutine(player.Spark());
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            StartCoroutine(player.Freeze());
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            StartCoroutine(player.Fury());
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            StartCoroutine(player.HealHorde());
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha8))
+        {
+            StartCoroutine(player.CreateTower());
+        }
+    }
     public void Event (int btn){
-        if (btn==1 || Input.GetKeyDown(KeyCode.Alpha1))
+        if (btn==1)
         {
-            player.Split();
+            StartCoroutine(player.Split());
+            
         }
-        if (btn == 2 || Input.GetKeyDown(KeyCode.Alpha2))
+        if (btn == 2)
         {
-            player.Vanish();
+            StartCoroutine(player.Vanish());
         }
-        if (btn == 3 || Input.GetKeyDown(KeyCode.Alpha3))
+        if (btn == 3)
         {
-            player.MeteorMash();
+            StartCoroutine(player.MeteorMash());
+            
         }
-        if (btn == 4 || Input.GetKeyDown(KeyCode.Alpha4))
+        if (btn == 4)
         {
-            player.Spark();
+            StartCoroutine(player.Spark());
         }
-        if (btn == 5 || Input.GetKeyDown(KeyCode.Alpha5))
+        if (btn == 5)
         {
-            //Hacer Freeze
+            StartCoroutine(player.Freeze());
         }
-        if (btn == 6 || Input.GetKeyDown(KeyCode.Alpha6))
+        if (btn == 6)
         {
-            //Llamar Furía
+            StartCoroutine(player.Fury());
         }
-        if (btn == 7 || Input.GetKeyDown(KeyCode.Alpha7))
+        if (btn == 7)
         {
-            player.HealHorde();
+            StartCoroutine(player.HealHorde());
         }
-        if (btn == 8 || Input.GetKeyDown(KeyCode.Alpha8))
+        if (btn == 8)
         {
-            player.CreateTower();
+            StartCoroutine(player.CreateTower());
         }
     }
     

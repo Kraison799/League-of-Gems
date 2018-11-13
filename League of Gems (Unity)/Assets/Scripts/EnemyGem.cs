@@ -24,16 +24,16 @@ public class EnemyGem : Gem {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);//reinicio lvl
         }
     }
-    void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag.Equals(fire.tag))
+        if (other.gameObject.tag.Equals(fire.tag))
         {
             healthBar.UpdateBar(Hp -= 10, MaxHp);
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
         }
-        if (collision.gameObject.tag.Equals(EnemyFire.tag))
+        if (other.gameObject.tag.Equals(EnemyFire.tag))
         {
-            Physics.IgnoreCollision(GetComponent<Collider>(), collision.gameObject.GetComponent<Collider>());
+            Physics.IgnoreCollision(GetComponent<Collider>(), other.gameObject.GetComponent<Collider>());
         }
     }
 }

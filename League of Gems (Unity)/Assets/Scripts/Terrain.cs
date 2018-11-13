@@ -14,7 +14,7 @@ public class Terrain : MonoBehaviour {
 	[DllImport("liblib.dll")]
 	static extern int GetListPosition(IntPtr map);
 
-	List<Vector3> positions = new List<Vector3>();
+	public List<Vector3> positions = new List<Vector3>();
 	private IntPtr map;
     bool moving = true;
 	GameObject player;
@@ -66,7 +66,7 @@ public class Terrain : MonoBehaviour {
             if (i == 0)
             {
                 Vector3 pos = new Vector3(GetListPosition(map) * 10, 0.25f, GetListPosition(map) * 10);
-                Debug.Log(pos);
+                //Debug.Log(pos);
                 positions.Add(pos);
             }
             else
@@ -75,7 +75,7 @@ public class Terrain : MonoBehaviour {
                 Vector3 pos = new Vector3(GetListPosition(map) * 10, 0.25f, GetListPosition(map) * 10);
                 for(int l = 0; l < 10; l++)
                 {
-                    Debug.Log(pos);
+                    //Debug.Log(pos);
                     positions.Add(Vector3.Slerp(old,pos,player.GetComponent<Player>().speed * l));
                 }
                 

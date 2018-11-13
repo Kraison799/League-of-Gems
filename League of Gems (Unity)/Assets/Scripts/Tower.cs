@@ -27,7 +27,6 @@ public class Tower : MonoBehaviour {
     {
         if (other.gameObject.tag == Enemytag)
         {
-
             StartCoroutine(Attack());
         }
     }
