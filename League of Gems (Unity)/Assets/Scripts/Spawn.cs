@@ -26,9 +26,7 @@ public class Spawn : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		/*if (Input.GetKey(KeyCode.W)){
-			transform.Translate(Vector3.forward);
-		}*/
+		
     }
     /// <summary>
     /// Move the specified new_position.

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ee5c48513d95f3d4ab15a66fe541ed1b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - horde: {instanceID: 0}
+  - healArea: {fileID: 1829956537967800, guid: 2e1499ea8fa8e9c4da31aebc770758ef, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

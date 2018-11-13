@@ -22,7 +22,7 @@ public class Terrain : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Debug.Log("Created");
-		player = GameObject.FindGameObjectWithTag("minions");
+		player = GameObject.FindGameObjectWithTag("Player");
 		map = getMap(5);
 	}
 	
@@ -63,10 +63,24 @@ public class Terrain : MonoBehaviour {
 		SendPositions(map, (int) finit.x / 10, (int) finit.z / 10, (int)init.x / 10, (int)init.z / 10);
 		int lenght = GetListLenght(map)/2;
 		for (int i = 0; i < lenght;i++){
-			Vector3 pos = new Vector3(GetListPosition(map)*10, 0.25f, GetListPosition(map)*10);
-			Debug.Log(pos);
-            for (int times = 0; times <3; times++)
-			positions.Add(pos);
+            if (i == 0)
+            {
+                Vector3 pos = new Vector3(GetListPosition(map) * 10, 0.25f, GetListPosition(map) * 10);
+                Debug.Log(pos);
+                positions.Add(pos);
+            }
+            else
+            {
+                Vector3 old = positions[positions.Count - 1];
+                Vector3 pos = new Vector3(GetListPosition(map) * 10, 0.25f, GetListPosition(map) * 10);
+                for(int l = 0; l < 10; l++)
+                {
+                    Debug.Log(pos);
+                    positions.Add(Vector3.Slerp(old,pos,player.GetComponent<Player>().speed * l));
+                }
+                
+            }
+			
 		}
         
     }
@@ -89,13 +103,13 @@ public class Terrain : MonoBehaviour {
     /// </summary>
     /// <returns>The position.</returns>
 	Vector3 playerPos(){
-		return player.GetComponent<Rigidbody>().position;
-	}
+        return player.GetComponent<Player>().Selectedhorde.transform.position;
+    }
     /// <summary>
     /// Sets the player position to the first on the list
     /// </summary>
     /// <param name="newPos">New position.</param>
 	void setPlayerPos(Vector3 newPos){
-		player.GetComponent<Spawn>().Move(newPos);  
-	}
+        player.GetComponent<Player>().Selectedhorde.GetComponent<Horde>().Move(newPos);
+    }
 }

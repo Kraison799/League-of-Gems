@@ -6,6 +6,19 @@ TagManager:
   tags:
   - minions
   - Ground
+  - FireSpawn
+  - Tower
+  - Spark
+  - Heal
+  - MeteorMash
+  - Fire
+  - FriendlyFire
+  - EnemyFire
+  - Minion
+  - Horde
+  - Enemy Horde
+  - Enemy
+  - Enemy Minion
   layers:
   - Default
   - TransparentFX
