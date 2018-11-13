@@ -63,11 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\Extern Assets\DCG Shaders\Water Shader\_Resources\causticsProjector.cs" />
     <Compile Include="Assets\Extern Assets\DCG Shaders\Water Shader\_Resources\MirrorReflection.cs" />
-    <Compile Include="Assets\Extern Assets\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
-    <Compile Include="Assets\Extern Assets\Knight\scripts\rotator.cs" />
-    <Compile Include="Assets\Extern Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
-    <Compile Include="Assets\Extern Assets\MoveMotionPack\SampleScene\Scripts\PlayManager.cs" />
-    <Compile Include="Assets\Extern Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
     <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\CameraController.cs" />
     <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\GUIControls.cs" />
     <Compile Include="Assets\Extern Assets\RPG Character Animation Pack FREE\Code\RPGCharacterControllerFREE.cs" />
@@ -102,11 +97,11 @@
     <Compile Include="Assets\Extern Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Extern Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Extern Assets\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
-    <Compile Include="Assets\Extern Assets\Snow Package\Demo\ExtendedFlycam.cs" />
-    <Compile Include="Assets\Extern Assets\Winter Zone Mini 1.0\Scripts\EmitterPositionController.cs" />
-    <Compile Include="Assets\Extern Assets\Winter Zone Mini 1.0\Scripts\FXDemoController.cs" />
+    <Compile Include="Assets\MagicParticlesLite\Script.cs" />
     <Compile Include="Assets\Move.cs" />
+    <Compile Include="Assets\MoveMotionPack\SampleScene\Scripts\PlayManager.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
