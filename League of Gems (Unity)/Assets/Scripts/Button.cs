@@ -4,38 +4,43 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
+    Player player;
+    private void Awake()
+    {
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
+    }
     public void Event (int btn){
-        if (btn==1)
+        if (btn==1 || Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Debug.Log("boton 1");
+            player.Split();
         }
-        if (btn == 2)
+        if (btn == 2 || Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Debug.Log("boton 2");
+            player.Vanish();
         }
-        if (btn == 3)
+        if (btn == 3 || Input.GetKeyDown(KeyCode.Alpha3))
         {
-            Debug.Log("boton 3");
+            player.MeteorMash();
         }
-        if (btn == 4)
+        if (btn == 4 || Input.GetKeyDown(KeyCode.Alpha4))
         {
-            Debug.Log("boton 4");
+            player.Spark();
         }
-        if (btn == 5)
+        if (btn == 5 || Input.GetKeyDown(KeyCode.Alpha5))
         {
-            Debug.Log("boton 5");
+            //Hacer Freeze
         }
-        if (btn == 6)
+        if (btn == 6 || Input.GetKeyDown(KeyCode.Alpha6))
         {
-            Debug.Log("boton 6");
+            //Llamar Furía
         }
-        if (btn == 7)
+        if (btn == 7 || Input.GetKeyDown(KeyCode.Alpha7))
         {
-            Debug.Log("boton 7");
+            player.HealHorde();
         }
-        if (btn == 8)
+        if (btn == 8 || Input.GetKeyDown(KeyCode.Alpha8))
         {
-            Debug.Log("boton 8");
+            player.CreateTower();
         }
     }
     

@@ -34,53 +34,38 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            selectedhorde.GetComponent<Horde>().Split();
-            horde.GetComponent<Horde>().minionsCap /= 2;
-            GameObject newhorde = Instantiate(horde, mousePos(), transform.rotation);
-            hordes.Add(newhorde);
-            selectedhorde = hordes[hordes.Count-1];
-
-        }
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            HealHorde();
-
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            MeteorMash();
-
-        }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SlowHorde();
-
-        }
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            CreateTower();
-
-        }
         if(Area != null)
         {
             Area.transform.localScale += new Vector3(1, 0, 1);
         }
-        
-
     }
-   
-
+   public IEnumerator Vanish()
+    {
+        foreach (GameObject h in hordes){
+            foreach(GameObject min in h.GetComponent<Horde>().minionList)
+            {
+                min.GetComponent<Renderer>().enabled = false;
+                yield return new WaitForSeconds(10);
+                min.GetComponent<Renderer>().enabled = true;
+            }            
+        }
+    }
+    public void Split()
+    {
+        selectedhorde.GetComponent<Horde>().Split();
+        horde.GetComponent<Horde>().minionsCap /= 2;
+        GameObject newhorde = Instantiate(horde, mousePos(), transform.rotation);
+        hordes.Add(newhorde);
+        selectedhorde = hordes[hordes.Count - 1];
+    }
     
-    void HealHorde()
+    public void HealHorde()
     {
         Area = Instantiate(healArea, mousePos(), transform.rotation);
         Destroy(Area,3f);
     }
 
-    void MeteorMash()
+    public void MeteorMash()
     {
         Area = Instantiate(meteorArea, mousePos(), transform.rotation);
         meteor = Instantiate(meteor, Area.transform.position + Vector3.up*50, transform.rotation);
@@ -89,12 +74,12 @@ public class Player : MonoBehaviour
         Destroy(meteor, 3f);
 
     }
-    void SlowHorde()
+    public void Spark()
     {
         Area = Instantiate(sparkArea, mousePos(), transform.rotation);
         Destroy(Area, 3f);
     }
-    void CreateTower()
+    public void CreateTower()
     {
         Instantiate(tower, mousePos(), transform.rotation);
     }
