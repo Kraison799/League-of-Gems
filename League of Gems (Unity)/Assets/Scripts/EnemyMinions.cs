@@ -14,4 +14,15 @@ public class EnemyMinions : MonoBehaviour
 	void Update () {
 		transform.LookAt(GameObject.FindWithTag("Horde").transform);
 	}
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("MeteorMash"))
+        {
+            foreach (GameObject minion in GetComponent<Enemy>().selectedhorde.GetComponent<EnemyHorde>().minionList)
+            {
+                minion.GetComponent<Movement>().Hp -= 50;
+            }
+        }
+    }
 }

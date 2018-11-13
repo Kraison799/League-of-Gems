@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMinions : MonoBehaviour
 {
     Transform randomMinion;
+    public List<GameObject> selectedHorde;
 	// Use this for initialization
 	void Start () {
         StartCoroutine(randomChoice());
@@ -30,5 +31,15 @@ public class PlayerMinions : MonoBehaviour
             yield return new WaitForSeconds(10);
         }
         
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("Heal"))
+        {
+            foreach (GameObject minion in GetComponent<Player>().Selectedhorde.GetComponent<Horde>().minionList)
+            {
+                minion.GetComponent<Movement>().Hp += 10;
+            }
+        }
     }
 }

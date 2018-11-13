@@ -19,7 +19,7 @@ public class Movement : MonoBehaviour {
     public GameObject fire;
     Transform fireSpawn;
 	int MaxHp = 100;
-	int Hp = 100;
+	public int Hp = 100;
     public SimpleHealthBar healthBar;
     // Use this for initialization
     void Start () {

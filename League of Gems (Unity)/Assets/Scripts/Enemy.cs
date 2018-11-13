@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour {
 
     GameObject Area;
     GameObject Meteor;
-    GameObject selectedhorde;
+    public GameObject selectedhorde;
     public float speed = 0.1f;
     public GameObject horde;
     List<GameObject> hordes = new List<GameObject>();
