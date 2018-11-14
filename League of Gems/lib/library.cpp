@@ -9,6 +9,7 @@
 #include "Maps/Djikstra.h"
 #include <iostream>
 #include "Maps/Prim.h"
+#include "Maps/Kruskal.h"
 //Funciones de Mapa
 LIB_LIBRARY_H Map* getMap(int level){
 
@@ -25,7 +26,7 @@ LIB_LIBRARY_H Map* getMap(int level){
     else if(level == 3){
         Debug::Log("using Kruskal",Color::Blue);
         std::cout<< "printing Kruskal" <<endl;
-        return new AStar;
+        return new Kruskal;
     }
     else if(level == 4){
         Debug::Log("using Prim",Color::Blue);

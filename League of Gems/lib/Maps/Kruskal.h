@@ -5,13 +5,34 @@
 #ifndef LIB_KRUSKAL_H
 #define LIB_KRUSKAL_H
 
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
+#include <iostream>
+#include "../ADT/List.h"
 #include "Map.h"
+#include "../ADT/Cell.h"
+#include "../ADT/Graph.h"
+#include <list>
+#include <functional>
+#include <queue>
 
 class Kruskal : public Map{
 public:
-    void getPositions(int xi, int yi, int xf, int yf) override;
+    Kruskal();
+    std::list<Cell*>* findPath(int iStart, int jStart, int iTarget, int jTarget);
+    void getPositions(int xi,int yi,int xf, int yf) override;
+private:
+    Graph* graph;
+    std::list<Cell*>* path = nullptr;
+    int xTarget = -1;
+    int yTarget = -1;
+
+    //se crea un arbol de expansion minima para un solo nodo objetivo. Si este cambia, se recalculara
+    Graph* findMST(Graph* graph, int iStart, int jStart, int iPlayer, int jPlayer);
 };
+
 
 
 #endif //LIB_KRUSKAL_H
