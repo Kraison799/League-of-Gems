@@ -20,16 +20,16 @@
 class Prim : public Map{
 public:
     Prim();
-    std::list<Cell<int>*>* findPath(int iTarget, int jTarget, int iPlayer, int jPlayer);
+    std::list<Cell*>* findPath(int iTarget, int jTarget, int iPlayer, int jPlayer);
     void getPositions(int xi,int yi,int xf, int yf) override;
 
 private:
     Graph* graph;
-    static std::list<Cell<int> *>* path;
-    static int xTarget;
-    static int yTarget;
+    std::list<Cell*>* path;
+    int xTarget;
+    int yTarget;
 
-    static Graph* findMST(Graph* graph, int iStart, int jStart, int iTarget, int jTarget);
+    Graph* findMST(int iStart, int jStart, int iTarget, int jTarget);
 
 };
 

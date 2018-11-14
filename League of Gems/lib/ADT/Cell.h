@@ -24,6 +24,9 @@ public:
     bool operator < (Cell* cellToCompare);
     int getDijkstraDistance() const;
     void setDijkstraDistance(int DijkstraDistance);
+    bool isVisited() const;
+    void setVisited(bool pVisit);
+    bool operator == (const Cell &cellToCompare) const;
 
 private:
     int Xpos;
@@ -32,6 +35,9 @@ private:
     int g = 10000;
     int Heuristic = 0;
     int DijkstraDistance;
+
+    bool visited = false;
+
     int hashKey;
     Cell* previous;
 };

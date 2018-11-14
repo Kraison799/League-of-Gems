@@ -71,3 +71,12 @@ int Cell::getDijkstraDistance() const {
 void Cell::setDijkstraDistance(int DijkstraDistance) {
     Cell::DijkstraDistance = DijkstraDistance;
 }
+bool Cell::isVisited() const {
+    return visited;
+}
+void Cell::setVisited(bool pVisit) {
+    Cell::visited = pVisit;
+}
+bool Cell::operator==(const Cell &cellToCompare) const {
+    return this->getXpos() == cellToCompare.getXpos() && this->getYpos() ==cellToCompare.getYpos();
+}

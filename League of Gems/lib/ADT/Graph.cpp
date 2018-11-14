@@ -87,13 +87,15 @@ void Graph::restoreGraph() {
     }
 
 }
-
+void Graph::restoreVisited() {
+    for (int i=0; i<this->height;i++)
+        for (int (j) = 0; (j) < this->width; ++(j)) {
+            this->keyTable[i][j]->setVisited(false);
+        }
+}
 void Graph::addEdge(Cell *CellFrom, Cell *CellTo) {
     int keyFrom = CellFrom->getHashKey();
     this->adjacencyList[keyFrom].insert(CellTo);
-
-
-
 }
 
 int* Graph::loadMap(int lvl) {

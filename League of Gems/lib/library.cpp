@@ -8,6 +8,7 @@
 #include "Maps/AStar.h"
 #include "Maps/Djikstra.h"
 #include <iostream>
+#include "Maps/Prim.h"
 //Funciones de Mapa
 LIB_LIBRARY_H Map* getMap(int level){
 

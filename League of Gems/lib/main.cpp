@@ -13,43 +13,44 @@ int main(){
 
     Map* map;
     int lenght;
-    /*
+
     //Bresenhan
     map = getMap(1);
     SendPositions(map, 12, 3, 38, 38);
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
-    }*/
-    //Prim
+    }
+
+    //Djikstra
     map = getMap(2);
     SendPositions(map, 12, 3, 38, 38);
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
     }/*
-    //Djikstra
+    //Kruskal
     map = getMap(3);
     SendPositions(map, 12, 3, 38, 38);
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
-    }
-    //Kruskal
+    }*/
+    //Prim
     map = getMap(4);
     SendPositions(map, 12, 3, 38, 38);
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
     }
-    /*
+
     //A-Star
     map = getMap(5);
     SendPositions(map, 12, 3, 38, 38);
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
-    }*/
+    }
 
     /*
      * Tengo que guardar el elemento de la lista en una variable i despues meter la variable a la lista.

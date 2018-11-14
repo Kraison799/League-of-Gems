@@ -7,27 +7,27 @@
 Prim::Prim() {
     graph = new Graph(50, 50, 1);
     graph->generateGrid();
-    std::list<Cell<int> *>* Prim::path = nullptr;
-    int Prim::xTarget = -1;
-    int Prim::yTarget = -1;
+    path = nullptr;
+    xTarget = -1;
+    yTarget = -1;
 }
 
 //Funcion para busqueda
-std::list<Cell<int> *> *Prim::findPath(int iTarget, int jTarget, int iPlayer, int jPlayer) {
+std::list<Cell*> *Prim::findPath(int iTarget, int jTarget, int iPlayer, int jPlayer) {
     //si el punto del click cambia, se recalcula el arbol
     if (path == nullptr || (iTarget != xTarget || jTarget != yTarget))
     {
         xTarget = iTarget;
         yTarget = jTarget;
-        Graph *MST = findMST(graph, iPlayer, jPlayer, iTarget, jTarget);
+        Graph *MST = findMST(iPlayer, jPlayer, iTarget, jTarget);
 
         bool targetFound = false,
                 progress;
-        std::set<Cell<int> *> adjacencyList;
-        auto *pathStack = new std::vector<Cell<int> *>();
+        std::set<Cell*> adjacencyList;
+        auto *pathStack = new std::vector<Cell*>();
         pathStack->push_back(MST->getNode(iPlayer, jPlayer));
 
-        Cell<int> *currentCell = nullptr,
+        Cell*currentCell = nullptr,
                 *target = graph->getNode(iTarget, jTarget);
 
         // usando pathStack = pila de celdas que se han recorrido hasta el momento
@@ -52,7 +52,7 @@ std::list<Cell<int> *> *Prim::findPath(int iTarget, int jTarget, int iPlayer, in
                 adjacencyList = MST->getNodeAdjacencyList(currentCell->getXpos(), currentCell->getYpos());
 
                 //para cada celda unida a la actual...
-                for (Cell<int> *adjacentCell : adjacencyList) {
+                for (Cell *adjacentCell : adjacencyList) {
                     //Si la celda adyacente no es la anterior o no ha sido visitada ya, se agrega a la pila
                     if (!adjacentCell->isVisited()) {
                         pathStack->push_back(adjacentCell);
@@ -66,7 +66,7 @@ std::list<Cell<int> *> *Prim::findPath(int iTarget, int jTarget, int iPlayer, in
         }
 
         //se traduce la pila del path a una lista para retornarla
-        path = new std::list<Cell<int> *>();
+        path = new std::list<Cell*>();
 
         for (unsigned long i = pathStack->size(); i > 0; i--) {
             path->push_back(pathStack->back()), pathStack->pop_back();
@@ -75,13 +75,13 @@ std::list<Cell<int> *> *Prim::findPath(int iTarget, int jTarget, int iPlayer, in
     return path;
 }
 
-Graph* Prim::findMST(Graph* graph, int iStart, int jStart, int iTarget, int jTarget) {
+Graph* Prim::findMST(int iStart, int jStart, int iTarget, int jTarget) {
     //se crea un nuevo grafo, que sera el arbol de expansion minima
     auto MST = new Graph(graph->getHeight(), graph->getWidth());
 
-    Cell<int> *currentCell, *MSTCell, *target = graph->getNode(iTarget, jTarget);
-    std::set<Cell<int> *> adjacencyList;
-    std::queue<Cell<int> *> visited;
+    Cell *currentCell, *MSTCell, *target = graph->getNode(iTarget, jTarget);
+    std::set<Cell *> adjacencyList;
+    std::queue<Cell *> visited;
     visited.push(graph->getNode(iStart, jStart));
     MST->getNode(iStart, jStart)->setVisited(true);
 
@@ -93,7 +93,7 @@ Graph* Prim::findMST(Graph* graph, int iStart, int jStart, int iTarget, int jTar
         adjacencyList = graph->getNodeAdjacencyList(currentCell->getXpos(), currentCell->getYpos());
 
         //para toda celda adyacente...
-        for (Cell<int> *adjacentCell : adjacencyList) {
+        for (Cell *adjacentCell : adjacencyList) {
             MSTCell = MST->getNode(adjacentCell->getXpos(), adjacentCell->getYpos());
 
             //si la celda adyacente no esta visitada ya y no es un obstaculo
@@ -119,7 +119,7 @@ Graph* Prim::findMST(Graph* graph, int iStart, int jStart, int iTarget, int jTar
     return MST;
 }
 
-void Djikstra::getPositions(int xi, int yi,int xf,int yf){
+void Prim::getPositions(int xi, int yi,int xf,int yf){
     auto list = findPath(xi,yi,xf,yf);
     for (auto cell : *list){
         positions.add(cell->getXpos());

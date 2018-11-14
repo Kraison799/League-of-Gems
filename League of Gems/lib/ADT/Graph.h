@@ -38,7 +38,10 @@ public:
      * Funcion que restaura el valor de los puntos G y la heuristica de cada Nodo
      */
     void restoreGraph();
-
+    /**
+     * Restuara visited a false en las celdas
+     */
+    void restoreVisited();
     /**
      * Agrega en la lista de CellFrom, el nodo CellTo
      * @param CellFrom Nodo en que se va a agregar el nodo CellTo
