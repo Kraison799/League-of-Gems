@@ -25,12 +25,12 @@ public:
     void getPositions(int xi,int yi,int xf, int yf) override;
 private:
     Graph* graph;
-    std::list<Cell*>* path = nullptr;
-    int xTarget = -1;
-    int yTarget = -1;
+    std::list<Cell*>* path;
+    int xTarget;
+    int yTarget;
 
     //se crea un arbol de expansion minima para un solo nodo objetivo. Si este cambia, se recalculara
-    Graph* findMST(Graph* graph, int iStart, int jStart, int iPlayer, int jPlayer);
+    Graph* findMST(int iStart, int jStart, int iPlayer, int jPlayer);
 };
 
 
