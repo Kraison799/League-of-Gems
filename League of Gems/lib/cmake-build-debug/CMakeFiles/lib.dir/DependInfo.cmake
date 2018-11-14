@@ -14,8 +14,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Kruskal.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/Maps/Kruskal.cpp.o"
   "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Map.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/Maps/Map.cpp.o"
   "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Prim.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/Maps/Prim.cpp.o"
+  "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Minion.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/Minions/Minion.cpp.o"
+  "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Structure.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/Minions/Structure.cpp.o"
+  "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Waves.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/Minions/Waves.cpp.o"
   "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/library.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/library.cpp.o"
-  "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/main.cpp" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

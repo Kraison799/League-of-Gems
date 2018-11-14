@@ -52,16 +52,34 @@ int main(){
         std::cout<< GetListPosition(map) <<std::endl;
     }
 
-    /*
-     * Tengo que guardar el elemento de la lista en una variable i despues meter la variable a la lista.
-    Waves waves;
-    Minion minion = waves.getMinions().get(5);
-    cout << waves.getMinions().get(5).getHP() << std::endl;
-    cout << minion.getHP() << std::endl;
-    cout << minion.getDmg(35) << std::endl;
-    cout << minion.getHP() << std::endl;
-    waves.getMinions().edit(minion,5);
-    cout << waves.getMinions().get(5).getHP();*/
+
+    ///Waves
+    Waves* wave;
+    wave = getWaves();
+    Minion t;
+    Minion m;
+    Minion r;
+    Minion w;
+    Structure structure;
+
+    std::cout << "Minions: " << std::endl;
+    printf("%-10i %-10i %-10i %-10i \n","Tank","Melee","Ranged","Mage");
+    for (int i=0; i<16; i++) {
+        t = wave->getMinion(i);
+        m = wave->getMinion(i+16);
+        r = wave->getMinion(i+32);
+        w = wave->getMinion(i+48);
+        printf("%-10i %-10i %-10i %-10i \n",t.getHP(),m.getHP(),r.getHP(),w.getHP());
+        atkM(t.getPtr());
+        atkMM(m.getPtr(), w.getPtr());
+        atkMS(r.getPtr());
+        atkS(structure.getPtr());
+        atkSM(structure.getPtr(), r.getPtr());
+        heal(t.getPtr());
+        fury(m.getPtr());
+        printf("%-10i %-10i %-10i %-10i \n",t.getHP(),m.getHP(),r.getHP(),w.getHP());
+    }
+
 
     return 0;
 }

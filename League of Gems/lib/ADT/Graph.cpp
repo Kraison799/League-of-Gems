@@ -100,7 +100,7 @@ void Graph::addEdge(Cell *CellFrom, Cell *CellTo) {
 
 int* Graph::loadMap(int lvl) {
     FILE *myFile;
-    myFile = fopen("level.txt", "r");
+    myFile = fopen("../ADT/level.txt", "r");
 
     //read file into array
     int* numberArray;

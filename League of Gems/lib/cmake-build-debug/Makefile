@@ -393,6 +393,87 @@ Maps/Prim.cpp.s:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Maps/Prim.cpp.s
 .PHONY : Maps/Prim.cpp.s
 
+Minions/Minion.o: Minions/Minion.cpp.o
+
+.PHONY : Minions/Minion.o
+
+# target to build an object file
+Minions/Minion.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Minion.cpp.o
+.PHONY : Minions/Minion.cpp.o
+
+Minions/Minion.i: Minions/Minion.cpp.i
+
+.PHONY : Minions/Minion.i
+
+# target to preprocess a source file
+Minions/Minion.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Minion.cpp.i
+.PHONY : Minions/Minion.cpp.i
+
+Minions/Minion.s: Minions/Minion.cpp.s
+
+.PHONY : Minions/Minion.s
+
+# target to generate assembly for a file
+Minions/Minion.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Minion.cpp.s
+.PHONY : Minions/Minion.cpp.s
+
+Minions/Structure.o: Minions/Structure.cpp.o
+
+.PHONY : Minions/Structure.o
+
+# target to build an object file
+Minions/Structure.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Structure.cpp.o
+.PHONY : Minions/Structure.cpp.o
+
+Minions/Structure.i: Minions/Structure.cpp.i
+
+.PHONY : Minions/Structure.i
+
+# target to preprocess a source file
+Minions/Structure.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Structure.cpp.i
+.PHONY : Minions/Structure.cpp.i
+
+Minions/Structure.s: Minions/Structure.cpp.s
+
+.PHONY : Minions/Structure.s
+
+# target to generate assembly for a file
+Minions/Structure.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Structure.cpp.s
+.PHONY : Minions/Structure.cpp.s
+
+Minions/Waves.o: Minions/Waves.cpp.o
+
+.PHONY : Minions/Waves.o
+
+# target to build an object file
+Minions/Waves.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Waves.cpp.o
+.PHONY : Minions/Waves.cpp.o
+
+Minions/Waves.i: Minions/Waves.cpp.i
+
+.PHONY : Minions/Waves.i
+
+# target to preprocess a source file
+Minions/Waves.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Waves.cpp.i
+.PHONY : Minions/Waves.cpp.i
+
+Minions/Waves.s: Minions/Waves.cpp.s
+
+.PHONY : Minions/Waves.s
+
+# target to generate assembly for a file
+Minions/Waves.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/Minions/Waves.cpp.s
+.PHONY : Minions/Waves.cpp.s
+
 library.o: library.cpp.o
 
 .PHONY : library.o
@@ -419,33 +500,6 @@ library.s: library.cpp.s
 library.cpp.s:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/library.cpp.s
 .PHONY : library.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -486,12 +540,18 @@ help:
 	@echo "... Maps/Prim.o"
 	@echo "... Maps/Prim.i"
 	@echo "... Maps/Prim.s"
+	@echo "... Minions/Minion.o"
+	@echo "... Minions/Minion.i"
+	@echo "... Minions/Minion.s"
+	@echo "... Minions/Structure.o"
+	@echo "... Minions/Structure.i"
+	@echo "... Minions/Structure.s"
+	@echo "... Minions/Waves.o"
+	@echo "... Minions/Waves.i"
+	@echo "... Minions/Waves.s"
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

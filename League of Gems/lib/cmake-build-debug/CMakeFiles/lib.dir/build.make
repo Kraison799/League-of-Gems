@@ -57,22 +57,9 @@ include CMakeFiles/lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lib.dir/flags.make
 
-CMakeFiles/lib.dir/main.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/main.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/main.cpp"
-
-CMakeFiles/lib.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/main.cpp" > CMakeFiles/lib.dir/main.cpp.i
-
-CMakeFiles/lib.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/main.cpp" -o CMakeFiles/lib.dir/main.cpp.s
-
 CMakeFiles/lib.dir/library.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lib.dir/library.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/library.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/library.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/library.cpp"
 
 CMakeFiles/lib.dir/library.cpp.i: cmake_force
@@ -83,9 +70,48 @@ CMakeFiles/lib.dir/library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/library.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/library.cpp" -o CMakeFiles/lib.dir/library.cpp.s
 
+CMakeFiles/lib.dir/Minions/Minion.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/Minions/Minion.cpp.o: ../Minions/Minion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lib.dir/Minions/Minion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Minions/Minion.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Minion.cpp"
+
+CMakeFiles/lib.dir/Minions/Minion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Minions/Minion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Minion.cpp" > CMakeFiles/lib.dir/Minions/Minion.cpp.i
+
+CMakeFiles/lib.dir/Minions/Minion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Minions/Minion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Minion.cpp" -o CMakeFiles/lib.dir/Minions/Minion.cpp.s
+
+CMakeFiles/lib.dir/Minions/Structure.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/Minions/Structure.cpp.o: ../Minions/Structure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lib.dir/Minions/Structure.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Minions/Structure.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Structure.cpp"
+
+CMakeFiles/lib.dir/Minions/Structure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Minions/Structure.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Structure.cpp" > CMakeFiles/lib.dir/Minions/Structure.cpp.i
+
+CMakeFiles/lib.dir/Minions/Structure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Minions/Structure.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Structure.cpp" -o CMakeFiles/lib.dir/Minions/Structure.cpp.s
+
+CMakeFiles/lib.dir/Minions/Waves.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/Minions/Waves.cpp.o: ../Minions/Waves.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lib.dir/Minions/Waves.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Minions/Waves.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Waves.cpp"
+
+CMakeFiles/lib.dir/Minions/Waves.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/Minions/Waves.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Waves.cpp" > CMakeFiles/lib.dir/Minions/Waves.cpp.i
+
+CMakeFiles/lib.dir/Minions/Waves.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Minions/Waves.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Minions/Waves.cpp" -o CMakeFiles/lib.dir/Minions/Waves.cpp.s
+
 CMakeFiles/lib.dir/ADT/List.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/ADT/List.cpp.o: ../ADT/List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lib.dir/ADT/List.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lib.dir/ADT/List.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/ADT/List.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/List.cpp"
 
 CMakeFiles/lib.dir/ADT/List.cpp.i: cmake_force
@@ -98,7 +124,7 @@ CMakeFiles/lib.dir/ADT/List.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../Maps/Djikstra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lib.dir/Maps/Djikstra.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lib.dir/Maps/Djikstra.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maps/Djikstra.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Djikstra.cpp"
 
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.i: cmake_force
@@ -111,7 +137,7 @@ CMakeFiles/lib.dir/Maps/Djikstra.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/Maps/Map.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/Maps/Map.cpp.o: ../Maps/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lib.dir/Maps/Map.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lib.dir/Maps/Map.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maps/Map.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Map.cpp"
 
 CMakeFiles/lib.dir/Maps/Map.cpp.i: cmake_force
@@ -124,7 +150,7 @@ CMakeFiles/lib.dir/Maps/Map.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/Maps/AStar.cpp.o: ../Maps/AStar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lib.dir/Maps/AStar.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lib.dir/Maps/AStar.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maps/AStar.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/AStar.cpp"
 
 CMakeFiles/lib.dir/Maps/AStar.cpp.i: cmake_force
@@ -137,7 +163,7 @@ CMakeFiles/lib.dir/Maps/AStar.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/Debug.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/Debug.cpp.o: ../Debug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lib.dir/Debug.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lib.dir/Debug.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Debug.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Debug.cpp"
 
 CMakeFiles/lib.dir/Debug.cpp.i: cmake_force
@@ -150,7 +176,7 @@ CMakeFiles/lib.dir/Debug.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/Maps/Bresenham.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/Maps/Bresenham.cpp.o: ../Maps/Bresenham.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lib.dir/Maps/Bresenham.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lib.dir/Maps/Bresenham.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maps/Bresenham.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Bresenham.cpp"
 
 CMakeFiles/lib.dir/Maps/Bresenham.cpp.i: cmake_force
@@ -163,7 +189,7 @@ CMakeFiles/lib.dir/Maps/Bresenham.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/Maps/Kruskal.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/Maps/Kruskal.cpp.o: ../Maps/Kruskal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lib.dir/Maps/Kruskal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lib.dir/Maps/Kruskal.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maps/Kruskal.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Kruskal.cpp"
 
 CMakeFiles/lib.dir/Maps/Kruskal.cpp.i: cmake_force
@@ -176,7 +202,7 @@ CMakeFiles/lib.dir/Maps/Kruskal.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/Maps/Prim.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/Maps/Prim.cpp.o: ../Maps/Prim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lib.dir/Maps/Prim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lib.dir/Maps/Prim.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/Maps/Prim.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Prim.cpp"
 
 CMakeFiles/lib.dir/Maps/Prim.cpp.i: cmake_force
@@ -189,7 +215,7 @@ CMakeFiles/lib.dir/Maps/Prim.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/ADT/Cell.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/ADT/Cell.cpp.o: ../ADT/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/lib.dir/ADT/Cell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lib.dir/ADT/Cell.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/ADT/Cell.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/Cell.cpp"
 
 CMakeFiles/lib.dir/ADT/Cell.cpp.i: cmake_force
@@ -202,7 +228,7 @@ CMakeFiles/lib.dir/ADT/Cell.cpp.s: cmake_force
 
 CMakeFiles/lib.dir/ADT/Graph.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/ADT/Graph.cpp.o: ../ADT/Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lib.dir/ADT/Graph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/lib.dir/ADT/Graph.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lib.dir/ADT/Graph.cpp.o -c "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/Graph.cpp"
 
 CMakeFiles/lib.dir/ADT/Graph.cpp.i: cmake_force
@@ -215,8 +241,10 @@ CMakeFiles/lib.dir/ADT/Graph.cpp.s: cmake_force
 
 # Object files for target lib
 lib_OBJECTS = \
-"CMakeFiles/lib.dir/main.cpp.o" \
 "CMakeFiles/lib.dir/library.cpp.o" \
+"CMakeFiles/lib.dir/Minions/Minion.cpp.o" \
+"CMakeFiles/lib.dir/Minions/Structure.cpp.o" \
+"CMakeFiles/lib.dir/Minions/Waves.cpp.o" \
 "CMakeFiles/lib.dir/ADT/List.cpp.o" \
 "CMakeFiles/lib.dir/Maps/Djikstra.cpp.o" \
 "CMakeFiles/lib.dir/Maps/Map.cpp.o" \
@@ -231,25 +259,27 @@ lib_OBJECTS = \
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
 
-lib: CMakeFiles/lib.dir/main.cpp.o
-lib: CMakeFiles/lib.dir/library.cpp.o
-lib: CMakeFiles/lib.dir/ADT/List.cpp.o
-lib: CMakeFiles/lib.dir/Maps/Djikstra.cpp.o
-lib: CMakeFiles/lib.dir/Maps/Map.cpp.o
-lib: CMakeFiles/lib.dir/Maps/AStar.cpp.o
-lib: CMakeFiles/lib.dir/Debug.cpp.o
-lib: CMakeFiles/lib.dir/Maps/Bresenham.cpp.o
-lib: CMakeFiles/lib.dir/Maps/Kruskal.cpp.o
-lib: CMakeFiles/lib.dir/Maps/Prim.cpp.o
-lib: CMakeFiles/lib.dir/ADT/Cell.cpp.o
-lib: CMakeFiles/lib.dir/ADT/Graph.cpp.o
-lib: CMakeFiles/lib.dir/build.make
-lib: CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable lib"
+liblib.so: CMakeFiles/lib.dir/library.cpp.o
+liblib.so: CMakeFiles/lib.dir/Minions/Minion.cpp.o
+liblib.so: CMakeFiles/lib.dir/Minions/Structure.cpp.o
+liblib.so: CMakeFiles/lib.dir/Minions/Waves.cpp.o
+liblib.so: CMakeFiles/lib.dir/ADT/List.cpp.o
+liblib.so: CMakeFiles/lib.dir/Maps/Djikstra.cpp.o
+liblib.so: CMakeFiles/lib.dir/Maps/Map.cpp.o
+liblib.so: CMakeFiles/lib.dir/Maps/AStar.cpp.o
+liblib.so: CMakeFiles/lib.dir/Debug.cpp.o
+liblib.so: CMakeFiles/lib.dir/Maps/Bresenham.cpp.o
+liblib.so: CMakeFiles/lib.dir/Maps/Kruskal.cpp.o
+liblib.so: CMakeFiles/lib.dir/Maps/Prim.cpp.o
+liblib.so: CMakeFiles/lib.dir/ADT/Cell.cpp.o
+liblib.so: CMakeFiles/lib.dir/ADT/Graph.cpp.o
+liblib.so: CMakeFiles/lib.dir/build.make
+liblib.so: CMakeFiles/lib.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX shared library liblib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/lib.dir/build: lib
+CMakeFiles/lib.dir/build: liblib.so
 
 .PHONY : CMakeFiles/lib.dir/build
 

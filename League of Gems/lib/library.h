@@ -8,6 +8,7 @@
 #include "Minions/Minion.h"
 #include "Minions/Structure.h"
 #include "Maps/Map.h"
+#include "Minions/Waves.h"
 
 extern "C"{
     //Funciones de Mapa
@@ -19,11 +20,13 @@ extern "C"{
     LIB_LIBRARY_H Minion* getMinion(int index);
     LIB_LIBRARY_H void atkM(Minion* target);
     LIB_LIBRARY_H void atkMM(Minion* target, Minion* attacker);
-    LIB_LIBRARY_H void atkMS(Minion* target, Structure* attacker);
+    LIB_LIBRARY_H void atkMS(Minion* target);
     LIB_LIBRARY_H void atkS(Structure* target);
     LIB_LIBRARY_H void atkSM(Structure* target, Minion* attacker);
     LIB_LIBRARY_H void heal(Minion* target);
     LIB_LIBRARY_H void fury(Minion* target);
+    LIB_LIBRARY_H Structure* createStruc();
+    LIB_LIBRARY_H Waves* getWaves();
 }
 
 #endif //LIB_LIBRARY_H

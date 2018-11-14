@@ -20,7 +20,7 @@ private:
     int maxHP;
     int hp;
     int atk;
-    float def;
+    int def;
     types type;
     // In-game Stats
     int dmgDone;
@@ -28,7 +28,7 @@ private:
     bool fury;
 public:
     // Constructor and pointer
-    Minion(int hp, int atk, float def, types type);
+    Minion(int hp, int atk, int def, types type);
     Minion* getPtr();
     // Get damage, fury and heal
     int getDmg(int enemyAtk);
@@ -41,7 +41,7 @@ public:
     int getMaxHP();
     int getHP();
     int getAtk();
-    float getDef();
+    int getDef();
     int getDmgDone();
     int getDmgTaken();
 

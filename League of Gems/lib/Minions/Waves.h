@@ -20,6 +20,7 @@ public:
     Minion getBest(types type);
     // Getter
     Minion getMinion(int index);
+    Minion* getMinionPtr(int index);
     List<Minion> getMinions();
 };
 

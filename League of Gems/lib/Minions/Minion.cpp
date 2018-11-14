@@ -7,26 +7,27 @@
 #include <iostream>
 
 Minion::Minion() {}
-Minion::Minion(int hp, int atk, float def, types type) {
+Minion::Minion(int hp, int atk, int def, types type) {
     // Define stats
     this->maxHP = hp;
     this->hp = hp;
+    this->atk = atk;
     this->def = def;
     this->type = type;
     // Define in-game stats
     this->dmgDone = 0;
     this->dmgTaken = 0;
     this->fury = false;
-    // Define pointer
-    this->ptr = static_cast<Minion *>(malloc(sizeof(this)));
 }
 Minion* Minion::getPtr() {
-    return this->ptr;
+    return this;
 }
 
 int Minion::getDmg(int enemyAtk) {
     // Calculate damage to be taken and update counter
-    int dmg = enemyAtk - (int)(enemyAtk*this->def);
+    std::cout << "EnemyAtk: " << enemyAtk << " and def: " << this->getDef() << std::endl;
+    int dmg = enemyAtk - enemyAtk*this->getDef()/100;
+    std::cout << "Dmg: " << dmg << std::endl;
     this->updateDmgTaken(dmg);
     // Set new hp according to damage taken
     if (dmg >= this->hp) {
@@ -39,7 +40,7 @@ int Minion::getDmg(int enemyAtk) {
 }
 void Minion::heal() {
     // Calculate hp to be restore
-    int hpHeal = this->maxHP*0.10;
+    int hpHeal = this->maxHP*0.15;
     // Set new hp according to hp restored
     if (this->hp + hpHeal >= this->maxHP) {
         this->hp = this->maxHP;
@@ -71,7 +72,7 @@ int Minion::getHP() {
 int Minion::getAtk() {
     return this->atk;
 }
-float Minion::getDef() {
+int Minion::getDef() {
     return this->def;
 }
 int Minion::getDmgDone() {

@@ -11,6 +11,7 @@ private:
 public:
     Structure();
     void getDmg(int enemyAtk);
+    Structure* getPtr();
 };
 
 #endif //LIB_STRUCTURE_H

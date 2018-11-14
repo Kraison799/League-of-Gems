@@ -32,6 +32,8 @@ CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../Maps/Djikstra.cpp
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../Maps/Djikstra.h
 CMakeFiles/lib.dir/Maps/Djikstra.cpp.o: ../Maps/Map.h
 
+CMakeFiles/lib.dir/Maps/Kruskal.cpp.o: ../ADT/Cell.h
+CMakeFiles/lib.dir/Maps/Kruskal.cpp.o: ../ADT/Graph.h
 CMakeFiles/lib.dir/Maps/Kruskal.cpp.o: ../ADT/List.h
 CMakeFiles/lib.dir/Maps/Kruskal.cpp.o: ../Maps/Kruskal.cpp
 CMakeFiles/lib.dir/Maps/Kruskal.cpp.o: ../Maps/Kruskal.h
@@ -49,6 +51,17 @@ CMakeFiles/lib.dir/Maps/Prim.cpp.o: ../Maps/Map.h
 CMakeFiles/lib.dir/Maps/Prim.cpp.o: ../Maps/Prim.cpp
 CMakeFiles/lib.dir/Maps/Prim.cpp.o: ../Maps/Prim.h
 
+CMakeFiles/lib.dir/Minions/Minion.cpp.o: ../Minions/Minion.cpp
+CMakeFiles/lib.dir/Minions/Minion.cpp.o: ../Minions/Minion.h
+
+CMakeFiles/lib.dir/Minions/Structure.cpp.o: ../Minions/Structure.cpp
+CMakeFiles/lib.dir/Minions/Structure.cpp.o: ../Minions/Structure.h
+
+CMakeFiles/lib.dir/Minions/Waves.cpp.o: ../ADT/List.h
+CMakeFiles/lib.dir/Minions/Waves.cpp.o: ../Minions/Minion.h
+CMakeFiles/lib.dir/Minions/Waves.cpp.o: ../Minions/Waves.cpp
+CMakeFiles/lib.dir/Minions/Waves.cpp.o: ../Minions/Waves.h
+
 CMakeFiles/lib.dir/library.cpp.o: ../ADT/Cell.h
 CMakeFiles/lib.dir/library.cpp.o: ../ADT/Graph.h
 CMakeFiles/lib.dir/library.cpp.o: ../ADT/List.h
@@ -56,18 +69,12 @@ CMakeFiles/lib.dir/library.cpp.o: ../Debug.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/AStar.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/Bresenham.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/Djikstra.h
+CMakeFiles/lib.dir/library.cpp.o: ../Maps/Kruskal.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/Map.h
 CMakeFiles/lib.dir/library.cpp.o: ../Maps/Prim.h
 CMakeFiles/lib.dir/library.cpp.o: ../Minions/Minion.h
 CMakeFiles/lib.dir/library.cpp.o: ../Minions/Structure.h
+CMakeFiles/lib.dir/library.cpp.o: ../Minions/Waves.h
 CMakeFiles/lib.dir/library.cpp.o: ../library.cpp
 CMakeFiles/lib.dir/library.cpp.o: ../library.h
-
-CMakeFiles/lib.dir/main.cpp.o: ../ADT/List.h
-CMakeFiles/lib.dir/main.cpp.o: ../Maps/Map.h
-CMakeFiles/lib.dir/main.cpp.o: ../Minions/Minion.h
-CMakeFiles/lib.dir/main.cpp.o: ../Minions/Structure.h
-CMakeFiles/lib.dir/main.cpp.o: ../Minions/Waves.h
-CMakeFiles/lib.dir/main.cpp.o: ../library.h
-CMakeFiles/lib.dir/main.cpp.o: ../main.cpp
 

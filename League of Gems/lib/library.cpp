@@ -10,6 +10,7 @@
 #include <iostream>
 #include "Maps/Prim.h"
 #include "Maps/Kruskal.h"
+#include "Minions/Waves.h"
 //Funciones de Mapa
 LIB_LIBRARY_H Map* getMap(int level){
 
@@ -52,14 +53,52 @@ LIB_LIBRARY_H int GetListPosition(Map* map){
     return map->sendpositionxory();
 }
 //Funciones de Minions
-LIB_LIBRARY_H Minion* getMinion(int index) {}
+LIB_LIBRARY_H Minion* getMinion(Waves* waves, int index) {
+    Debug::Log("getting Minion pointer...");
+    return waves->getMinionPtr(index);
+}
 
-LIB_LIBRARY_H void atkM(Minion* target) {}
+LIB_LIBRARY_H void atkM(Minion* target) {
+    Debug::Log("Minion attacked by Skill...");
+    target->getDmg(15);
+}
 
-LIB_LIBRARY_H void atkMM(Minion* target, Minion* attacker) {}
+LIB_LIBRARY_H void atkMM(Minion* target, Minion* attacker) {
+    Debug::Log("Minion attacked by Minion...");
+    target->getDmg(attacker->getAtk());
+}
 
-LIB_LIBRARY_H void atkMS(Minion* target, Structure* attacker) {}
+LIB_LIBRARY_H void atkMS(Minion* target) {
+    Debug::Log("Minion attacked by Structure...");
+    target->getDmg(10);
+}
 
-LIB_LIBRARY_H void atkS(Structure* target) {}
+LIB_LIBRARY_H void atkS(Structure* target) {
+    Debug::Log("Structure attacked by Skill...");
+    target->getDmg(10);
+}
 
-LIB_LIBRARY_H void atkSM(Structure* target, Minion* attacker) {}
+LIB_LIBRARY_H void atkSM(Structure* target, Minion* attacker) {
+    Debug::Log("Structure attacked by Minion...");
+    target->getDmg(attacker->getAtk());
+}
+
+LIB_LIBRARY_H void heal(Minion* target) {
+    Debug::Log("Minion healed..");
+    target->heal();
+}
+
+LIB_LIBRARY_H void fury(Minion* target) {
+    Debug::Log("Minion fury switch...");
+    target->furySwitch();
+}
+
+LIB_LIBRARY_H Structure* createStructure() {
+    Debug::Log("creating Structure", Color::Blue);
+    return new Structure;
+}
+
+LIB_LIBRARY_H Waves* getWaves() {
+    Debug::Log("getting Waves", Color::Blue);
+    return new Waves;
+}
