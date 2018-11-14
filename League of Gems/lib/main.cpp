@@ -10,9 +10,10 @@
 
 
 int main(){
-    /*
+
     Map* map;
     int lenght;
+    /*
     //Bresenhan
     map = getMap(1);
     SendPositions(map, 12, 3, 38, 38);
@@ -26,14 +27,14 @@ int main(){
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
-    }
+    }*/
     //Djikstra
     map = getMap(3);
     SendPositions(map, 12, 3, 38, 38);
     lenght = GetListLenght(map);
     for (int i=0;i<lenght;i++){
         std::cout<< GetListPosition(map) <<std::endl;
-    }
+    }/*
     //Kruskal
     map = getMap(4);
     SendPositions(map, 12, 3, 38, 38);

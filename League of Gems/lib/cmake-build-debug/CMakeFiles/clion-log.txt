@@ -1,4 +1,4 @@
-/snap/clion/44/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib"
+/snap/clion/49/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug
+-- Build files have been written to: /home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug

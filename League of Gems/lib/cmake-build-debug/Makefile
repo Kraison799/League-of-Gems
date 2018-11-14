@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/44/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/49/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/44/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/49/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib"
+CMAKE_SOURCE_DIR = "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmak
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/44/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/49/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/44/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/49/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ lib: cmake_check_build_system
 lib/fast:
 	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
 .PHONY : lib/fast
+
+ADT/Cell.o: ADT/Cell.cpp.o
+
+.PHONY : ADT/Cell.o
+
+# target to build an object file
+ADT/Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/Cell.cpp.o
+.PHONY : ADT/Cell.cpp.o
+
+ADT/Cell.i: ADT/Cell.cpp.i
+
+.PHONY : ADT/Cell.i
+
+# target to preprocess a source file
+ADT/Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/Cell.cpp.i
+.PHONY : ADT/Cell.cpp.i
+
+ADT/Cell.s: ADT/Cell.cpp.s
+
+.PHONY : ADT/Cell.s
+
+# target to generate assembly for a file
+ADT/Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/Cell.cpp.s
+.PHONY : ADT/Cell.cpp.s
+
+ADT/Graph.o: ADT/Graph.cpp.o
+
+.PHONY : ADT/Graph.o
+
+# target to build an object file
+ADT/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/Graph.cpp.o
+.PHONY : ADT/Graph.cpp.o
+
+ADT/Graph.i: ADT/Graph.cpp.i
+
+.PHONY : ADT/Graph.i
+
+# target to preprocess a source file
+ADT/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/Graph.cpp.i
+.PHONY : ADT/Graph.cpp.i
+
+ADT/Graph.s: ADT/Graph.cpp.s
+
+.PHONY : ADT/Graph.s
+
+# target to generate assembly for a file
+ADT/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/ADT/Graph.cpp.s
+.PHONY : ADT/Graph.cpp.s
 
 ADT/List.o: ADT/List.cpp.o
 
@@ -402,6 +456,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lib"
+	@echo "... ADT/Cell.o"
+	@echo "... ADT/Cell.i"
+	@echo "... ADT/Cell.s"
+	@echo "... ADT/Graph.o"
+	@echo "... ADT/Graph.i"
+	@echo "... ADT/Graph.s"
 	@echo "... ADT/List.o"
 	@echo "... ADT/List.i"
 	@echo "... ADT/List.s"

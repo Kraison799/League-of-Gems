@@ -1,3 +1,3 @@
-/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/gabriel/Desktop/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir
+/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/CMakeFiles/lib.dir
