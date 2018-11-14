@@ -1,4 +1,4 @@
-# Install script for directory: /home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib
+# Install script for directory: /home/maria/TareasD2/League-of-Gems/League of Gems/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

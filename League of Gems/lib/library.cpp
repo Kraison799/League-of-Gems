@@ -29,7 +29,7 @@ LIB_LIBRARY_H Map* getMap(int level){
     else if(level == 4){
         Debug::Log("using Prim",Color::Blue);
         std::cout<< "printing Prim" <<endl;
-        return new AStar;
+        return new Prim;
     }
     else {
         Debug::Log("using AStar",Color::Blue);

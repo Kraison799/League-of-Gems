@@ -8,152 +8,152 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
+				<Option working_dir="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
+				<Option working_dir="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
+				<Option working_dir="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lib">
-				<Option output="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
+				<Option output="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug/lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lib/fast">
-				<Option output="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug/lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
+				<Option output="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug/lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abstractize/Desktop/LoG/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/maria/TareasD2/League-of-Gems/League\ of\ Gems/lib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/Cell.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/ADT/Cell.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/Cell.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/ADT/Cell.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/Graph.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/ADT/Graph.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/Graph.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/ADT/Graph.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/List.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/ADT/List.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/ADT/List.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/ADT/List.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Debug.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Debug.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Debug.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Debug.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/AStar.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/AStar.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/AStar.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/AStar.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Bresenham.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Bresenham.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Bresenham.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Bresenham.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Djikstra.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Djikstra.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Djikstra.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Djikstra.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Kruskal.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Kruskal.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Kruskal.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Kruskal.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Map.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Map.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Map.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Map.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Prim.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Prim.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/Maps/Prim.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/Maps/Prim.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/library.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/library.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/library.h">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/library.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/main.cpp">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/main.cpp">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/home/abstractize/Desktop/LoG/League-of-Gems/League of Gems/lib/CMakeLists.txt">
+		<Unit filename="/home/maria/TareasD2/League-of-Gems/League of Gems/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
