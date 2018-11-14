@@ -816,6 +816,7 @@ MonoBehaviour:
   EnemyTag: Horde
   EnemyFire: {fileID: 1154359140992894, guid: 5478d57cd604ebc488bb990f6174afd3, type: 2}
   fire: {fileID: 1532219639843456, guid: d9252597c6bb97e4c90f14eda53b6487, type: 2}
+  Hp: 100
   healthBar: {fileID: 114162078954852328}
 --- !u!114 &114392737828910174
 MonoBehaviour:

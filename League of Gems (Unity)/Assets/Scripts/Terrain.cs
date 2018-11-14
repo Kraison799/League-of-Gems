@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Terrain : MonoBehaviour {
 	[DllImport("liblib.dll")]
@@ -19,11 +20,23 @@ public class Terrain : MonoBehaviour {
     bool moving = true;
 	GameObject player;
 	public GameObject click;
+    public Text text;
 	// Use this for initialization
 	void Start () {
 		Debug.Log("Created");
 		player = GameObject.FindGameObjectWithTag("Player");
-		map = getMap(5);
+        int ran = UnityEngine.Random.Range(1, 5);
+        if (ran == 1)
+            text.text = "Using Sightline";
+        else if (ran == 2)
+            text.text = "Using Djikstra";
+        else if (ran == 3)
+            text.text = "Using Kruskal";
+        else if (ran == 4)
+            text.text = "Using Prim";
+        else if (ran == 5)
+            text.text = "Using A*";
+		map = getMap(ran);
 	}
 	
 	// Update is called once per frame
